@@ -1,5 +1,9 @@
 $("body,article,html").on("mousewheel", function (event) {
 
-  document.body.scrollLeft -= ((event.deltaY * event.deltaFactor));
+  var scroll = event.deltaY * event.deltaFactor;
+
+  window.scrollBy(-scroll, 0);
+
   event.preventDefault();
+
 });

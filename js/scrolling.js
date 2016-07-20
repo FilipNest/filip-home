@@ -1,9 +1,13 @@
 $("body,article,html").on("mousewheel", function (event) {
 
-  var scroll = event.deltaY * event.deltaFactor;
+  if (window.innerWidth > 700) {
 
-  window.scrollBy(-scroll, 0);
+    var scroll = event.deltaY * event.deltaFactor;
 
-  event.preventDefault();
+    window.scrollBy(-scroll, 0);
+
+    event.preventDefault();
+
+  }
 
 });

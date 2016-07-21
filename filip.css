@@ -11,6 +11,11 @@
     margin: 0px;
     padding: 0px;
   }
+  .intro {
+    font-size:120%;
+    line-height: 140%;
+    display: block;
+  }
   main {
     width: 100%;
     position: relative;
@@ -38,11 +43,13 @@
     text-align: justify;
   }
   article p,
-  article h1 {
-    margin: 10px 40px 10px 40px;
+  article h1,
+  article h2,
+  article .intro {
+    margin: 10px 30px 10px 30px;
   }
   .image-box {
-    margin: 20px 40px 20px 40px;
+    margin: 20px 30px 20px 30px;
   }
   article img {
     display: block;
@@ -57,9 +64,22 @@
     text-align: center;
     line-height: 130%;
     border-width: 1px 0 1px 0;
-    padding: 5px;
+    padding: 10px;
     border-style: dotted;
     font-style: italic;
+  }
+  .box h2 {
+    font-size: 140%;
+    margin-top:20px;
+    font-weight: normal;
+    font-style: normal;
+  }
+  .box li {
+    list-style: none;
+    padding:5px;
+  }
+  .box ul {
+    padding: 0;
   }
   footer h1 {
     margin: 0px;
@@ -76,7 +96,11 @@
     text-align: right;
   }
   .highlight {
-    display: inline-block;
+    display: block;
+    padding: 10px;
+  }
+  article nav {
+    margin: 30px;
   }
   #name span {
     display: inline-block;

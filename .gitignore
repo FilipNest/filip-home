@@ -1,0 +1,6 @@
+iris/logs
+iris/files
+iris/nedb
+iris/local
+iris/configurations
+node_modules

@@ -1,0 +1,36 @@
+<header class="two twoCont">
+
+  {{#if current.lead_image}}
+
+  <img alt="{{current.lead_image.alt}}" title="{{current.lead_image.title}}" src="{{current.lead_image.path}}" /> {{/if}}
+
+  <h1>{{current.title}}</h1>
+
+</header>
+
+<main>
+
+  <article class="gill">
+
+    <span class="intro">{{{current.description}}}</span>
+
+    <div class="box">
+      <h2>Recent posts</h2>
+      <ul>
+
+        [[[entity posts,{"entities":["post"],"limit":5,"queries":[{"field":"categories","value":{"eid":{{current.eid}} },"operator":"includes"}]}]]] {{{{iris_liveupdate}}}} {{#each posts}}
+
+        <li>
+          <a href="{{this.path}}"><h3>{{this.title}}</h3>
+            </a>
+        </li>
+
+        {{/each}} {{{{/iris_liveupdate}}}}
+
+
+      </ul>
+    </div>
+
+  </article>
+
+</main>

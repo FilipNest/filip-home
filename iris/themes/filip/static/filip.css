@@ -1,5 +1,12 @@
   /*Reset base*/
   
+  img {
+    max-width: 100%;
+  }
+  a:link,
+  a:visited {
+    color: inherit;
+  }
   body {
     color: #333333;
     box-sizing: border-box;
@@ -12,7 +19,7 @@
     padding: 0px;
   }
   .intro {
-    font-size:120%;
+    font-size: 120%;
     line-height: 140%;
     display: block;
   }
@@ -23,11 +30,15 @@
   }
   /*Typography*/
   
+  header {
+    position: relative;
+    padding-bottom: 40px;
+  }
   header h1 {
     display: block;
     height: 100%;
     padding: 20px;
-    font-size: 300%;
+    font-size: 200%;
     margin: 0;
     font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
     line-height: 120%;
@@ -68,15 +79,35 @@
     border-style: dotted;
     font-style: italic;
   }
+  .box h3 {
+    text-align: left;
+  }
+  .box p {
+    margin: 0px
+  }
+  .track {
+    text-align: center;
+  }
+  .track h1 {
+    font-size: 120%;
+  }
+  .track a:link,
+  .track a:visited {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    font-size: 70%;
+  }
   .box h2 {
     font-size: 140%;
-    margin-top:20px;
+    margin-top: 20px;
     font-weight: normal;
     font-style: normal;
   }
   .box li {
     list-style: none;
-    padding:5px;
+    padding: 5px;
   }
   .box ul {
     padding: 0;
@@ -108,32 +139,58 @@
     padding-left: 3px;
     padding-right: 3px;
   }
-  @media (min-width:700px) {
+  header img {
+    width: 100%;
+  }
+  #categories {
+    font-style: italic;
+    text-decoration: none;
+    font-size: 70%;
+    padding: 0px;
+    position: absolute;
+    bottom: 0px;
+    margin: 20px;
+  }
+  #categories a:link {
+    text-decoration: none;
+  }
+  #categories a:link:before {
+    content: " - "
+  }
+  #categories a:first-child:before {
+    content: ""
+  }
+  @media (min-width:700px) and (min-height:700px) {
+      
+    #categories {margin-bottom:20px;}
     body {
       overflow-y: hidden;
     }
     header {
+      padding-bottom: 0;
       position: absolute;
       z-index: 3;
       height: 100%;
       width: 350px;
-      position: absolute;
       left: 0px;
       border-style: solid;
       border-color: #333333;
       border-width: 0 20px 0 0;
     }
     article {
+      height: calc(100% - 40px);
       max-height: calc(100% - 40px);
       column-rule: 1px dotted #333333;
       column-width: 350px;
       column-gap: 20px;
-      -webkit-column-rule: 1px dotted #333333;
       -webkit-column-width: 350px;
       -webkit-column-gap: 20px;
       -moz-column-rule: 1px dotted #333333;
       -moz-column-width: 350px;
       -moz-column-gap: 20px;
+      -webkit-column-rule: 1px dotted #333333;
+      column-fill: auto;
+      -moz-column-fill: auto;
     }
     main {
       position: absolute;

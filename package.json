@@ -1,0 +1,22 @@
+{
+  "name": "filip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FilipNest/filip-home.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FilipNest/filip-home/issues"
+  },
+  "homepage": "https://github.com/FilipNest/filip-home#readme",
+  "dependencies": {
+    "irisjs": "^2.1.0"
+  }
+}

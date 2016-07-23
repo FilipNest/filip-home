@@ -1,0 +1,43 @@
+            <nav class="menu striped">
+
+<ul>
+
+          [[[entity categories,{"entities":["category"],"limit":5}]]] 
+          
+          {{#each categories}}
+
+          <li><a href="{{this.path}}">{{this.title}}
+            </a> {{/each}}</li>
+
+        </ul>
+
+      </nav>
+
+      <div class="box">
+        <h2>Recent posts</h2>
+        <ul>
+
+          [[[entity posts,{"entities":["post"],"limit":5}]]] 
+          
+          {{#each posts}}
+
+          <li><a href="{{this.path}}">{{this.title}}
+            </a> {{/each}}</li>
+
+        </ul>
+      </div>
+
+      <p class="three threeCont highlight">This site is for personal things so for commercial web development work please contact me over at <a href="https://octophindigital.com">Octophin Digital</a>, a company I co-founded to make amazing things on the web.</p>
+      <div class="track">
+
+        <h1>It's plants</h1>
+
+        <audio controls="controls">
+          <source src="http://filipnest.com/sites/default/files/It%27s%20plants_0.mp3" type="audio/mpeg">
+        </audio>
+
+        <div class="info">
+          <a href="">View info</a><a href="http://filipnest.com/sites/default/files/It%27s%20plants_0.mp3">Download</a>
+        </div>
+
+      </div>

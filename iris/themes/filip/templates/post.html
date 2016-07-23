@@ -1,0 +1,39 @@
+  <header class="two twoCont">
+
+    {{#if current.lead_image}}
+
+    <img alt="{{current.lead_image.alt}}" title="{{current.lead_image.title}}" src="{{current.lead_image.path}}" /> {{/if}}
+
+    <h1>{{current.title}}</h1>
+    
+          [[[entity current2,{"entities":["{{current.entityType}}"], "queries":[{"field":"eid","operator":"is","value":{{current.eid}} }],"loadReferences":["categories"]}]]]
+  
+  {{{{iris_handlebars_delay}}}}
+  
+      <ul id="categories">
+        
+   {{#each current2.0.categories}}
+
+        <a href="{{this.path}}">{{this.title}}</a>
+
+   {{/each}}
+        
+      </ul>
+      
+  {{{{/iris_handlebars_delay}}}}
+
+  </header>
+
+  <main>
+
+    <article class="gill">
+
+      <span class="intro">{{current.intro}}</span>
+      
+      [[[template extra__{{current.eid}}]]]
+      
+      {{{current.body}}}
+
+    </article>
+
+  </main>

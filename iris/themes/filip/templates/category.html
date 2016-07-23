@@ -15,13 +15,12 @@
     <span class="intro">{{{current.description}}}</span>
 
     <div class="box">
-      <h2>Recent posts</h2>
       <ul>
 
-        [[[entity posts,{"entities":["post"],"limit":5,"queries":[{"field":"categories","value":{"eid":{{current.eid}} },"operator":"includes"}]}]]] {{{{iris_liveupdate}}}} {{#each posts}}
+        [[[entity posts,{"entities":["post"],"queries":[{"field":"categories","value":{"eid":{{current.eid}} },"operator":"includes"}],"sort":{"eid":"asc"} }]]] {{{{iris_liveupdate}}}} {{#each posts}}
 
         <li>
-          <a href="{{this.path}}"><h3>{{this.title}}</h3>
+          <a href="{{this.path}}">{{this.title}}
             </a>
         </li>
 

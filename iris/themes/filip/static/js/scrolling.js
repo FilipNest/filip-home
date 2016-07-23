@@ -1,6 +1,6 @@
 $("body,article,html").on("mousewheel", function (event) {
 
-  if (window.innerWidth > 700 && window.innerHeight > 700) {
+  if (window.innerWidth > 700 && window.innerHeight > 500) {
 
     var scroll = event.deltaY * event.deltaFactor;
 

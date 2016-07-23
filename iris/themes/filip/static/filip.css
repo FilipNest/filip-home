@@ -141,6 +141,7 @@
   }
   header img {
     width: 100%;
+    background-color: white;
   }
   #categories {
     font-style: italic;
@@ -160,9 +161,23 @@
   #categories a:first-child:before {
     content: ""
   }
-  @media (min-width:700px) and (min-height:700px) {
-      
-    #categories {margin-bottom:20px;}
+  header {
+    text-align: center;
+  }
+  @media(min-width:700px) and (min-height:500px) and (max-height:700px) {
+    header h1 {
+      font-size: 180%;
+    }
+  }
+  @media(min-width:700px) and (min-height:500px) and (max-height:600px) {
+    header h1 {
+      font-size: 130%;
+    }
+  }
+  @media (min-width:700px) and (min-height:500px) {
+    #categories {
+      margin-bottom: 20px;
+    }
     body {
       overflow-y: hidden;
     }

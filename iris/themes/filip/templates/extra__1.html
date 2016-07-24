@@ -20,11 +20,21 @@
         <h2>Updates</h2>
         <ul>
 
-          [[[entity posts,{"entities":["post"]}]]] 
+          [[[entity posts,{"entities":["post"], "loadReferences":["categories"], "sort":{"date":"desc"}}]]] 
           
           {{#each posts}}
 
           <li><a href="{{this.path}}">{{this.title}}
+            
+            <div class="post-categories-list-home">
+            {{#each this.categories}}
+            
+            <span class="category">{{this.title}}
+            </span>
+            {{/each}}
+            
+              </div>
+            
             </a> {{/each}}</li>
 
         </ul>

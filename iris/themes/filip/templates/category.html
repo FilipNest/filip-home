@@ -17,14 +17,33 @@
     <div class="box">
       <ul>
 
-        [[[entity posts,{"entities":["post"],"queries":[{"field":"categories","value":{"eid":{{current.eid}} },"operator":"includes"}],"sort":{"eid":"asc"} }]]] {{{{iris_liveupdate}}}} {{#each posts}}
-
-        <li>
+        [[[entity posts,{"entities":["post"],"queries":[{"field":"categories","value":{"eid":{{current.eid}} },"operator":"includes"}],"sort":{"eid":"asc"} }]]] 
+        
+        {{{{iris_liveupdate}}}} 
+        
+        {{#each posts}}
+        
+               <li>
           <a href="{{this.path}}">{{this.title}}
-            </a>
-        </li>
-
-        {{/each}} {{{{/iris_liveupdate}}}}
+            
+        
+        
+        {{#if this.lead_image.title}}
+        
+        <img title="{{this.lead_image.title}}" alt="{{this.lead_image.alt}}" src="{{this.lead_image.path}}" />
+        
+        {{else}}
+        
+        {{this.intro}}
+                
+        {{/if}}
+        
+               <hr />
+</a>
+                 </li>
+        {{/each}} 
+        
+        {{{{/iris_liveupdate}}}}
 
 
       </ul>

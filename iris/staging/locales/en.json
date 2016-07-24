@@ -51,5 +51,8 @@
 	"Restart the server": "Restart the server",
 	"No widgets available for this field": "No widgets available for this field",
 	"Enter email address": "Enter email address",
-	"An email will be sent for you to complete the process": "An email will be sent for you to complete the process"
+	"An email will be sent for you to complete the process": "An email will be sent for you to complete the process",
+	"Config exported": "Config exported",
+	"Delete entity {{id}}?": "Delete entity {{id}}?",
+	"Are you sure you want to delete this entity?": "Are you sure you want to delete this entity?"
 }

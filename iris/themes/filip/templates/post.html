@@ -1,18 +1,20 @@
   <header class="two twoCont">
 
-    {{#if current.lead_image}}
+    {{#if current.lead_image.title}}
 
-    <img alt="{{current.lead_image.alt}}" title="{{current.lead_image.title}}" src="{{current.lead_image.path}}" /> {{/if}}
+    <img alt="{{current.lead_image.alt}}" title="{{current.lead_image.title}}" src="{{current.lead_image.path}}" /> 
+    
+    {{/if}}
 
     <h1>{{current.title}}</h1>
     
-          [[[entity current2,{"entities":["{{current.entityType}}"], "queries":[{"field":"eid","operator":"is","value":{{current.eid}} }],"loadReferences":["categories"]}]]]
+          [[[entity self,{"entities":["{{current.entityType}}"], "queries":[{"field":"eid","operator":"is","value":{{current.eid}} }],"loadReferences":["categories","audio"]}]]]
   
   {{{{iris_handlebars_delay}}}}
   
       <ul id="categories">
         
-   {{#each current2.0.categories}}
+   {{#each self.0.categories}}
 
         <a href="{{this.path}}">{{this.title}}</a>
 
@@ -33,7 +35,40 @@
       [[[template extra__{{current.eid}}]]]
       
       {{{current.body}}}
+      
+      {{{{iris_handlebars_delay}}}}
 
+      {{#if self.0.audio}}
+      
+      <section class="audio">
+        
+         {{#each self.0.audio}}
+        
+        <div class="track">
+          
+        <h1>{{this.title}}</h1>
+              
+        <audio controls="controls">
+          <source src="{{this.file}}" type="audio/mpeg">
+        </audio>
+
+<!--
+        <div class="info">
+          <a href="">View info</a><a href="http://filipnest.com/sites/default/files/It%27s%20plants_0.mp3">Download</a>
+        </div>
+-->
+          
+          </div>
+
+      
+        {{/each}}
+        
+      </section>
+      
+      {{/if}}
+
+      {{{{/iris_handlebars_delay}}}}
+           
     </article>
 
   </main>

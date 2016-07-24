@@ -14,7 +14,7 @@
 
     <span class="intro">{{{current.description}}}</span>
 
-    <div class="box">
+    <div class="box hidden">
       <ul>
 
         [[[entity posts,{"entities":["post"],"queries":[{"field":"categories","value":{"eid":{{current.eid}} },"operator":"includes"}],"sort":{"eid":"asc"} }]]] 
@@ -24,20 +24,18 @@
         {{#each posts}}
         
                <li>
-          <a href="{{this.path}}">{{this.title}}
+          <a href="{{this.path}}"><h1>{{this.title}}</h1>
             
         
         
         {{#if this.lead_image.title}}
         
         <img title="{{this.lead_image.title}}" alt="{{this.lead_image.alt}}" src="{{this.lead_image.path}}" />
-        
-        {{else}}
-        
-        {{this.intro}}
-                
+                        
         {{/if}}
-        
+        <br />
+        <p>{{this.intro}}</p>
+        <br />
                <hr />
 </a>
                  </li>

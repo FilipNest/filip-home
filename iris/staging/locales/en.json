@@ -54,5 +54,18 @@
 	"An email will be sent for you to complete the process": "An email will be sent for you to complete the process",
 	"Config exported": "Config exported",
 	"Delete entity {{id}}?": "Delete entity {{id}}?",
-	"Are you sure you want to delete this entity?": "Are you sure you want to delete this entity?"
+	"Are you sure you want to delete this entity?": "Are you sure you want to delete this entity?",
+	"Name of action": "Name of action",
+	"Event": "Event",
+	"This event provides the tokens {{tokens}} which can be used as placeholders in the actions and conditions section of this form": "This event provides the tokens {{tokens}} which can be used as placeholders in the actions and conditions section of this form",
+	"Conditions": "Conditions",
+	"property": "property",
+	"operator": "operator",
+	"value": "value",
+	"negate": "negate",
+	"Advanced - Evaluate custom JavaScript condition": "Advanced - Evaluate custom JavaScript condition",
+	"Run sandboxed JavaScript code to determine whether this should run. This code runs after any other properties are checked in the conditions (above). The sandboxed environment has access to an <b>args</b> object containing all the event variables and a <b>valid</b> variable. To pass or fail the condition, change <b>valid</b> to the boolean <b>true</b> or <b>false</b>.": "Run sandboxed JavaScript code to determine whether this should run. This code runs after any other properties are checked in the conditions (above). The sandboxed environment has access to an <b>args</b> object containing all the event variables and a <b>valid</b> variable. To pass or fail the condition, change <b>valid</b> to the boolean <b>true</b> or <b>false</b>.",
+	"Choose an event type": "Choose an event type",
+	"Choose an action type": "Choose an action type",
+	"Save action": "Save action"
 }

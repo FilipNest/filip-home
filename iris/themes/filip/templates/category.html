@@ -1,10 +1,12 @@
 <header class="two twoCont">
 
-  {{#if current.lead_image}}
+  [[[template background]]] {{#if current.lead_image}}
 
-  <img alt="{{current.lead_image.alt}}" title="{{current.lead_image.title}}" src="{{current.lead_image.path}}" /> {{/if}}
+  <img alt="{{current.lead_image.alt}}" title="{{current.lead_image.title}}" src="{{current.lead_image.path}}" />
 
-  <h1>{{current.title}}</h1>
+  <h1 class="no-image">{{current.title}}</h1> {{else}}
+
+  <h1 class="no-image">{{current.title}}</h1> {{/if}}
 
 </header>
 
@@ -17,13 +19,9 @@
     <div class="box hidden">
       <ul>
 
-        [[[entity posts,{"entities":["post"],"queries":[{"field":"categories","value":{"eid":{{current.eid}} },"operator":"includes"}],"sort":{"date":"desc"} }]]] 
-        
-        {{{{iris_liveupdate}}}} 
-        
-        {{#each posts}}
-        
-               <li>
+        [[[entity posts,{"entities":["post"],"queries":[{"field":"categories","value":{"eid":{{current.eid}} },"operator":"includes"}],"sort":{"date":"desc"} }]]] {{{{iris_liveupdate}}}} {{#each posts}}
+
+        <li>
           <a href="{{this.path}}"><h1>{{this.title}}</h1>
             
         
@@ -38,10 +36,8 @@
         <br />
                <hr />
 </a>
-                 </li>
-        {{/each}} 
-        
-        {{{{/iris_liveupdate}}}}
+        </li>
+        {{/each}} {{{{/iris_liveupdate}}}}
 
 
       </ul>

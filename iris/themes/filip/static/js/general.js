@@ -5,6 +5,6 @@ $(document).ready(function () {
   $('p strong').hyphenate('en-gb');
   $('p strong a').hyphenate('en-gb');
 
-
-
+  $("#dots").addClass("up");
+  
 })

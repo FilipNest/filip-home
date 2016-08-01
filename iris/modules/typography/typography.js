@@ -1,17 +1,11 @@
 // Only for server side 
 var typogr = require('typogr');
 
-iris.modules.typography.registerHook("hook_frontend_template", 1, function (thisHook, data) {
+iris.modules.typography.registerHook("hook_entity_view", 1, function (thisHook, data) {
 
-  if (thisHook.context && thisHook.context && thisHook.context.vars && thisHook.context.vars.req) {
+  if (data.body) {
 
-    var url = thisHook.context.vars.req.url;
-
-    if (url.split("/")[1] !== "admin") {
-
-      data.html = typogr.typogrify(data.html);
-
-    }
+    data.body = typogr.typogrify(data.body);
 
   }
 

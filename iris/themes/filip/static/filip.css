@@ -181,7 +181,7 @@
     padding: 10px;
   }
   article nav {
-    margin: 30px;
+    margin: 0 30px 0 30px;
   }
   #name span {
     display: inline-block;

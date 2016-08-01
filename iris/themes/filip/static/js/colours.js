@@ -1,8 +1,8 @@
 var CL = {};
 
-CL.load = function (styleID) {
+CL.load = function (styleIDs) {
 
-  CL.styleID = styleID;
+  CL.styleIDs = styleIDs;
 
   var script = document.createElement('script');
   script.src = 'http://www.colourlovers.com/api/palettes/random?jsonCallback=CL.CLpalette';
@@ -30,16 +30,19 @@ CL.CLpalette = function (response) {
 
     var contrast = getContrastYIQ(element);
 
-    //    CL-color
+    CL.styleIDs.forEach(function (styleID) {
 
-    document.getElementById(CL.styleID).innerHTML = document.getElementById(CL.styleID).innerHTML.split("CL" + index).join("#" + element);
+      //    CL-color
 
-    document.getElementById(CL.styleID).innerHTML = document.getElementById(CL.styleID).innerHTML.split("CLcont" + index).join(contrast);
+      document.getElementById(styleID).innerHTML = document.getElementById(styleID).innerHTML.split("CL" + index).join("#" + element);
+
+      document.getElementById(styleID).innerHTML = document.getElementById(styleID).innerHTML.split("CLcont" + index).join(contrast);
+
+    })
 
   });
 
 
 }
 
-CL.load("colours");
-CL.load("header-colours");
+CL.load(["colours", "header-colours"]);

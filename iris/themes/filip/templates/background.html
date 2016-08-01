@@ -1,16 +1,91 @@
 <svg id="dots">
   <defs>
-    <pattern id="basicPattern" x="10" y="10" width="350" height="500" patternUnits="userSpaceOnUse">
-      <circle cx="162" cy="43" r="20" />
-      <circle cx="40" cy="94" r="20" />
-      <circle cx="294" cy="79" r="20" />
-      <circle cx="197" cy="170" r="20" />
-      <circle cx="63" cy="215" r="20" />
-      <circle cx="281" cy="259" r="20" />
-      <circle cx="154" cy="312" r="20" />
-      <circle cx="281" cy="397" r="20" />
-      <circle cx="69" cy="402" r="20" />
+    <pattern id="dotty" x="10" y="10" width="350" height="500" patternUnits="userSpaceOnUse">
+
     </pattern>
   </defs>
-  <rect x="0" y="0" width="100%" height="100%" fill="url(#basicPattern)" />
+  <rect x="0" y="0" width="100%" height="100%" fill="url(#dotty)" />
 </svg>
+
+<script>
+  var dots = [
+    [162, 43],
+    [40, 94],
+    [294, 79],
+    [197, 170],
+    [63, 215],
+    [281, 259],
+    [154, 312],
+    [281, 397],
+    [69, 402]
+  ];
+
+  var dotty = document.getElementById('dotty');
+
+  document.getElementById("dots").onclick = function(event) {
+
+    // Width is 350px
+    // Pattern height is 500px;
+    // Full height is 10000px 
+
+    var y = event.pageY - $('#dots').offset().top;
+
+    var dotElements = document.querySelectorAll("#dots circle");
+
+    window.dots.forEach(function(dot, index) {
+
+      var popped;
+
+      var xDistance = Math.abs(dot[0] - event.screenX);
+
+      if (xDistance > 40) {
+
+        return false;
+
+      } else {
+
+        // check if y matches any variant of a dot
+
+        var yDots = [dot[1]];
+
+        for (var i = 1; i < 20; i += 1) {
+
+          yDots.push(dot[1] + (500 * i));
+
+        }
+
+        yDots.forEach(function(yPos) {
+
+          var yDistance = Math.abs(y - yPos);
+
+          if (yDistance < 40) {
+
+            popped = true;
+
+          }
+
+        })
+
+        if (popped) {
+
+          dotElements[index].setAttribute("class", "popped");
+
+        }
+
+      }
+
+    })
+
+  }
+
+  dots.forEach(function(dot) {
+
+    var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'circle');
+    newElement.setAttribute("cx", dot[0]);
+    newElement.setAttribute("cy", dot[1]);
+    newElement.setAttribute("r", 20);
+    dotty.appendChild(newElement);
+
+  })
+
+</script>

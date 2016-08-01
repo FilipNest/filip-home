@@ -39,10 +39,19 @@
   <script src="/themes/filip/js/general.js"></script>
 
   [[[template header-colours]]]
-  
+
   <style id="colours">
-    #dots {
-      fill: CL4
+    #dots circle {
+      stroke: CLcont2;
+      stroke-width:2px;
+      fill: CL2;
+      transition: all 200ms;
+    }
+    
+    #dots circle.popped {
+      stroke: CLcont1;
+      fill: CL1;
+      r: 10;
     }
     
     .striped ul {

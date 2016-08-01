@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/FilipNest/filip-home#readme",
   "dependencies": {
-    "irisjs": "^2.1.0"
+    "irisjs": "^2.1.0",
+    "typogr": "^0.6.6"
   }
 }

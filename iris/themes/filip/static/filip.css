@@ -11,10 +11,13 @@
     color: #333333;
     box-sizing: border-box;
   }
+  .box {
+    text-align: center !important
+  }
   body,
   html {
     font-size: 24px;
-    font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+    font-family: "bligh";
     margin: 0px;
     padding: 0px;
   }
@@ -55,7 +58,7 @@
     padding: 20px;
     font-size: 200%;
     margin: 0;
-    font-family: "prenton-condensed", sans-serif;
+    font-weight: 700;
     line-height: 120%;
   }
   article {
@@ -66,6 +69,7 @@
     padding-bottom: 100px;
   }
   article p {
+    font-weight: 200;
     text-align: justify;
   }
   article p,
@@ -90,7 +94,6 @@
     border-width: 1px 0 1px 0;
     padding: 10px;
     border-style: dotted;
-    font-style: italic;
   }
   .box h2,
   .box h1,
@@ -102,8 +105,14 @@
     line-height: 120%;
     font-size: 130%;
   }
+  blockquote {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+  }
   .post-categories-list-home .category {
     font-size: 60%;
+    font-weight: 500;
   }
   .post-categories-list-home .category:before {
     content: " & ";
@@ -149,7 +158,6 @@
     font-size: 140%;
     margin-top: 20px;
     font-weight: normal;
-    font-style: normal;
   }
   .box li {
     list-style: none;
@@ -182,7 +190,7 @@
   }
   #name span {
     display: inline-block;
-    font-family: "prenton-condensed", sans-serif;
+    font-weight: 700;
     padding-left: 3px;
     padding-right: 3px;
   }
@@ -193,7 +201,6 @@
     background-color: white;
   }
   #categories {
-    font-style: italic;
     text-decoration: none;
     font-size: 70%;
     padding: 0px;

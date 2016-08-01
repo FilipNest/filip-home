@@ -42,3 +42,4 @@ CL.CLpalette = function (response) {
 }
 
 CL.load("colours");
+CL.load("header-colours");

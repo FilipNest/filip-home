@@ -1,0 +1,99 @@
+ header h1 {
+   pointer-events: none;
+   letter-spacing: 4px;
+   font-weight: 700;
+   color: CLcont2;
+   text-shadow: 1px 1px 0 CL1, 2px 2px 0 CL2, 3px 3px 0 CL3, 4px 4px 0 CL4, 5px 5px 0 CLcont2;
+ }
+ #dots circle {
+   stroke: CLcont2;
+   stroke-width: 2px;
+   fill: CL2;
+   transition: all 200ms;
+ }
+ #dots circle.popped {
+   stroke: CLcont1;
+   fill: CL1;
+   r: 10;
+ }
+ .striped ul {
+   text-align: center;
+   padding: 0px;
+ }
+ .striped li {
+   padding: 5px;
+   list-style: none;
+ }
+ .front-page-update {
+   border-style: solid;
+   border-width: 0 0 4px 0;
+ }
+ .front-page-update:nth-child(1n) {
+   border-color: CL1;
+ }
+ .front-page-update:nth-child(2n) {
+   border-color: CL2;
+ }
+ .front-page-update:nth-child(3n) {
+   border-color: CL3;
+ }
+ .front-page-update:nth-child(1) {
+   border-top-color: CL3;
+   border-width: 4px 0 4px 0;
+ }
+ .striped li:nth-child(1) {
+   background-color: CL1;
+   color: CLcont1;
+ }
+ .striped li:nth-child(2) {
+   background-color: CL2;
+   color: CLcont2;
+ }
+ .striped li:nth-child(3) {
+   background-color: CL3;
+   color: CLcont3;
+ }
+ .striped li:nth-child(4) {
+   background-color: CL4;
+   color: CLcont4;
+ }
+ .striped li:nth-child(5) {
+   background-color: CL1;
+   color: CLcont1;
+ }
+ .striped li:nth-child(6) {
+   background-color: CL2;
+   color: CLcont2;
+ }
+ .striped li:nth-child(7) {
+   background-color: CL3;
+   color: CLcont3;
+ }
+ .striped li:nth-child(8) {
+   background-color: CL4;
+   color: CLcont4;
+ }
+ .one {
+   background-color: CL1
+ }
+ .oneCont {
+   color: CLcont1
+ }
+ .two {
+   background-color: CL2
+ }
+ .twoCont {
+   color: CLcont2
+ }
+ .three {
+   background-color: CL3
+ }
+ .threeCont {
+   color: CLcont3
+ }
+ .four {
+   background-color: CL4
+ }
+ .fourCont {
+   color: CLcont4
+ }

@@ -3,7 +3,7 @@ var typogr = require('typogr');
 
 iris.modules.typography.registerHook("hook_entity_view", 1, function (thisHook, data) {
 
-  if (data.body) {
+  if (data && data.body) {
 
     data.body = typogr.typogrify(data.body);
 

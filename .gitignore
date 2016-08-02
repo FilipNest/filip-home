@@ -3,4 +3,5 @@ iris/files
 iris/nedb
 iris/local
 iris/configurations
+iris/themes/filip/static/fonts
 node_modules

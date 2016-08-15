@@ -1,17 +1,13 @@
 <nav class="menu striped">
 
   <ul>
-    
-    {{#iris embed="entity" embedOptions='{"entities":["category"],"limit":5}' as |categories|}}
-  
-      {{#each categories}}
-  
-        <li><a href="{{this.path}}">{{this.title}}</a></li>
-    
-      {{/each}}
 
-    {{/iris}}
-  
+    {{#iris embed="entity" embedOptions='{"entities":["category"],"limit":5}' as |categories|}} {{#each categories}}
+
+    <li><a href="{{this.path}}">{{this.title}}</a></li>
+
+    {{/each}} {{/iris}}
+
   </ul>
 
 </nav>
@@ -19,18 +15,18 @@
 <p class="three threeCont highlight">This site is for personal things so for commercial web development work please contact me over at <a href="https://octophindigital.com">Octophin Digital</a>, a company I co-founded to make amazing things on the web.</p>
 
 <div class="box">
-    
-  {{#iris embed="entity" skip=req.query.skip limit=(add 1 2) embedOptions='{"entities":["post"], "loadReferences":["categories"], "sort":{"date":"desc"}}' as |posts|}}
-    
-    <h2>Updates</h2>
-    
-    <ul>
-    
+
+  {{#iris embed="entity" skip=req.query.skip limit=10 embedOptions='{"entities":["post"], "loadReferences":["categories"], "sort":{"date":"desc"}}' as |posts|}}
+
+  <h2>Updates</h2>
+
+  <ul>
+
     {{#each posts}}
 
-      <li class="front-page-update">
-        
-        <a href="{{this.path}}">{{this.title}}
+    <li class="front-page-update">
+
+      <a href="{{this.path}}">{{this.title}}
             
           <div class="post-categories-list-home">
           
@@ -42,13 +38,31 @@
             
           </div>
             
-        </a> 
-        
-      </li>
-        
-    {{/each}}
+        </a>
+
+    </li>
+
+    {{/each}} {{/iris}}
+
+    <div class="pagination">
+
+      {{#if req.query.skip}}
+
+      <span class="oneCont"><a class="one" href="{{req.path}}?skip={{add req.query.skip 10}}">Next</a></span> 
       
-  {{/iris}}
+      {{else}}
+
+      <span class="oneCont"><a class="one" href="{{req.path}}?skip={{add 0 10}}">Next</a></span> 
+      
+      {{/if}} 
+      
+      {{#if req.query.skip}}
+
+      <span class="twoCont"><a class="two" href="{{req.path}}?skip={{subtract req.query.skip 10}}">Previous</a></span>
+      
+      {{/if}}
+
+    </div>
 
   </ul>
 

@@ -105,6 +105,13 @@
     padding: 0;
     font-family: "bligh-light";
   }
+  .pagination {
+    margin: 15px;
+  }
+  .pagination a:link, .pagination a:visited {
+    color: ;
+    padding: 5px;
+  }
   .post-categories-list-home .category {
     font-size: 60%;
     font-family: "bligh-regular";

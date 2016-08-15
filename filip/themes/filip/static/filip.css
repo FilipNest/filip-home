@@ -57,6 +57,10 @@
     font-family: "bligh-bold";
     line-height: 120%;
   }
+  strong,
+  b {
+    font-family: "bligh-bold";
+  }
   article {
     position: relative;
     font-size: 80%;
@@ -101,14 +105,19 @@
     font-size: 130%;
   }
   blockquote {
-    margin: 0;
-    padding: 0;
-    font-family: "bligh-light";
+    font-family: "bligh-bold";
+    border-style: solid;
+    border-width: 0 1px 0 1px;
+  }
+  blockquote p {
+    font-family: "bligh-bold";
+    text-align: center !important;
   }
   .pagination {
     margin: 15px;
   }
-  .pagination a:link, .pagination a:visited {
+  .pagination a:link,
+  .pagination a:visited {
     color: ;
     padding: 5px;
   }

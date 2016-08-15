@@ -48,17 +48,17 @@
 
       {{#if req.query.skip}}
 
-      <span class="oneCont"><a class="one" href="{{req.path}}?skip={{add req.query.skip 10}}">Next</a></span> 
+      <span class="oneCont"><a class="one" href="{{req.path}}?skip={{add req.query.skip 10}}">Older</a></span> 
       
       {{else}}
 
-      <span class="oneCont"><a class="one" href="{{req.path}}?skip={{add 0 10}}">Next</a></span> 
+      <span class="oneCont"><a class="one" href="{{req.path}}?skip={{add 0 10}}">Older</a></span> 
       
       {{/if}} 
       
       {{#if req.query.skip}}
 
-      <span class="twoCont"><a class="two" href="{{req.path}}?skip={{subtract req.query.skip 10}}">Previous</a></span>
+      <span class="twoCont"><a class="two" href="{{req.path}}?skip={{subtract req.query.skip 10}}">Newer</a></span>
       
       {{/if}}
 

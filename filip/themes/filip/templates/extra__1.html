@@ -28,12 +28,14 @@
 
       <a href="{{this.path}}">{{this.title}}
             
+        <span class="date">{{moment this.date format="D/M/Y"}}</span>
+        
           <div class="post-categories-list-home">
           
             {{#each this.categories}}
             
               <span class="category">{{this.title}}</span>
-            
+                 
             {{/each}}
             
           </div>

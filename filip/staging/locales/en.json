@@ -67,5 +67,19 @@
 	"Run sandboxed JavaScript code to determine whether this should run. This code runs after any other properties are checked in the conditions (above). The sandboxed environment has access to an <b>args</b> object containing all the event variables and a <b>valid</b> variable. To pass or fail the condition, change <b>valid</b> to the boolean <b>true</b> or <b>false</b>.": "Run sandboxed JavaScript code to determine whether this should run. This code runs after any other properties are checked in the conditions (above). The sandboxed environment has access to an <b>args</b> object containing all the event variables and a <b>valid</b> variable. To pass or fail the condition, change <b>valid</b> to the boolean <b>true</b> or <b>false</b>.",
 	"Choose an event type": "Choose an event type",
 	"Choose an action type": "Choose an action type",
-	"Save action": "Save action"
+	"Save action": "Save action",
+	"No such entity type": "No such entity type",
+	"Delete field {{field}} on entity type {{type}}": "Delete field {{field}} on entity type {{type}}",
+	"Are you sure you want to delete this field?": "Are you sure you want to delete this field?",
+	"Cancel": "Cancel",
+	"Deleted field {{name}} on entity {{type}}": "Deleted field {{name}} on entity {{type}}",
+	"Error saving entity": "Error saving entity",
+	"Block title": "Block title",
+	"Body": "Body",
+	"Custom HTML body for this block.": "Custom HTML body for this block.",
+	"Path visibility": "Path visibility",
+	"Template output": "Template output",
+	"The HTML output for this list. Entities are stored in the 'list' handlebars variable.": "The HTML output for this list. Entities are stored in the 'list' handlebars variable.",
+	"Path": "Path",
+	"Enter a path for the entity. Leading / is required.": "Enter a path for the entity. Leading / is required."
 }

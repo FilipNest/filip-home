@@ -1,7 +1,7 @@
-iris/logs
-iris/files
-iris/nedb
-iris/local
-iris/configurations
-iris/themes/filip/static/fonts
+filip/logs
+filip/files
+filip/nedb
+filip/local
+filip/configurations
+filip/themes/filip/static/fonts
 node_modules

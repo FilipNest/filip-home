@@ -1,6 +1,6 @@
   <header class="two twoCont">
     
-    [[[template background]]]
+  {{{iris embed="template" template="background"}}}
 
     {{#if current.lead_image.title}}
 
@@ -8,38 +8,32 @@
     
     {{/if}}
 
-    <h1>{{current.title}}</h1>
-    
-          [[[entity self,{"entities":["{{current.entityType}}"], "queries":[{"field":"eid","operator":"is","value":{{current.eid}} }],"loadReferences":["categories","audio"]}]]]
-  
-  {{{{iris_handlebars_delay}}}}
+    {{#iris embed="entity" embedOptions='{"entities":["$current.entityType"], "queries":[{"field":"eid","operator":"is","value":$current.eid}],"loadReferences":["categories","audio"]}' as |self|}}
+        
+    <h1>{{self.0.title}}</h1>
   
       <ul id="categories">
         
-   {{#each self.0.categories}}
+        {{#each self.0.categories}}
 
-        <a href="{{this.path}}">{{this.title}}</a>
+          <a href="{{this.path}}">{{this.title}}</a>
 
-   {{/each}}
+        {{/each}}
         
       </ul>
-      
-  {{{{/iris_handlebars_delay}}}}
-
+          
   </header>
 
   <main>
 
     <article>
 
-      <span class="intro">{{current.intro}}</span>
+      <span class="intro">{{self.0.intro}}</span>
       
-      [[[template extra__{{current.eid}}]]]
+      {{{iris embed="template" template="extra__$current.eid"}}}
+            
+      {{{self.0.body}}}
       
-      {{{current.body}}}
-      
-      {{{{iris_handlebars_delay}}}}
-
       {{#if self.0.audio}}
       
       <section class="audio">
@@ -69,7 +63,9 @@
       
       {{/if}}
 
-      {{{{/iris_handlebars_delay}}}}
+  
+    {{/iris}}
+
            
     </article>
 

@@ -1,0 +1,55 @@
+<nav class="menu striped">
+
+  <ul>
+    
+    {{#iris embed="entity" embedOptions='{"entities":["category"],"limit":5}' as |categories|}}
+  
+      {{#each categories}}
+  
+        <li><a href="{{this.path}}">{{this.title}}</a></li>
+    
+      {{/each}}
+
+    {{/iris}}
+  
+  </ul>
+
+</nav>
+
+<p class="three threeCont highlight">This site is for personal things so for commercial web development work please contact me over at <a href="https://octophindigital.com">Octophin Digital</a>, a company I co-founded to make amazing things on the web.</p>
+
+<div class="box">
+    
+  {{#iris embed="entity" skip=req.query.skip limit=(add 1 2) embedOptions='{"entities":["post"], "loadReferences":["categories"], "sort":{"date":"desc"}}' as |posts|}}
+    
+    <h2>Updates</h2>
+    
+    <ul>
+    
+    {{#each posts}}
+
+      <li class="front-page-update">
+        
+        <a href="{{this.path}}">{{this.title}}
+            
+          <div class="post-categories-list-home">
+          
+            {{#each this.categories}}
+            
+              <span class="category">{{this.title}}</span>
+            
+            {{/each}}
+            
+          </div>
+            
+        </a> 
+        
+      </li>
+        
+    {{/each}}
+      
+  {{/iris}}
+
+  </ul>
+
+</div>

@@ -1,0 +1,85 @@
+<script src="/themes/filip/js/fittext.js"></script>
+
+<div class="one" id="about-header">
+  <a href="/"><h1><span class="one oneCont">F</span><span class="two twoCont">i</span><span class="three threeCont">l</span><span class="four fourCont">i</span><span class="one oneCont">p</span><span> </span><span class="two twoCont">H</span><span class="three threeCont">n</span><span class="four fourCont">í</span><span class="one oneCont">z</span><span class="two twoCont">d</span><span class="three threeCont">o</span></h1>
+    </a>
+</div>
+
+<div class="one" id="content">
+
+  <div class="inner">
+
+    <div class="top">
+
+      <a href="/"><small>Go here to view my main website</small></a>.
+      
+      <h2>About me</h2>
+      
+    </div>
+
+    {{{current.body}}}
+
+  </div>
+
+</div>
+
+<style>
+  body {
+    overflow: auto;
+  }
+  
+  .top {
+    text-align: center
+  }
+  
+  #about-header {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #about-header a:link {
+    text-decoration: none;
+  }
+  
+  #about-header span {
+    padding-left: 5px;
+    padding-right: 5px
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  #content {
+    max-width: 100%;
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  footer {
+    display: none;
+  }
+  
+  #content .inner {
+    max-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-width: 0 2px 0 2px;
+    width: 500px;
+    margin: auto;
+    font-family: "bligh-regular";
+    font-size: 80%;
+  }
+
+</style>
+
+<script>
+  window.fullpage = true;
+  window.fitText(document.getElementById("about-header"), 1.3);
+
+</script>

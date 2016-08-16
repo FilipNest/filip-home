@@ -16,7 +16,7 @@
 
 <div class="box">
 
-  {{#iris embed="entity" skip=req.query.skip limit=10 embedOptions='{"entities":["post"], "loadReferences":["categories"], "sort":{"date":"desc"}}' as |posts|}}
+  {{#iris embed="entity" skip=req.query.skip limit=25 embedOptions='{"entities":["post"], "loadReferences":["categories"], "sort":{"date":-1}}' as |posts|}}
 
   <h2>Updates</h2>
 

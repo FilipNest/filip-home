@@ -1,0 +1,152 @@
+{{#iris embed="colours" as |colours|}}
+
+<a id="show-colours" href="#colours">Colours?!</a>
+<div id="colours">
+
+  {{#unless colours.blackwhite}}
+
+  <p>Random colour palette via the Colourlovers API. This one's called {{colours.palette.title}} and is by {{colours.palette.userName}}
+
+    <br />
+
+    <a href='{{req.path}}?blackwhite="true"&'>Black and white mode.</a></p>
+
+  {{else}}
+
+  <p><a href='{{req.path}}?blackwhite="false"'>Random colour palette mode.</a></p> 
+  
+  {{/unless}}
+
+  <p><a href="#">Close this box.</a></p>
+  
+</div>
+
+<style>
+  header h1 {
+    pointer-events: none;
+    letter-spacing: 4px;
+    font-weight: 700;
+    color: {{colours.CLcont2}};
+    text-shadow: 1px 1px 0 {{colours.CL1}}, 2px 2px 0 {{colours.CL2}}, 3px 3px 0 {{colours.CL3}},4px 4px 0 {{colours.CL4}},5px 5px 0 {{colours.CLcont2}};
+  }
+  
+  #dots circle {
+    stroke: {{colours.CLcont2}};
+    stroke-width: 2px;
+    fill: {{colours.CL2}};
+    transition: all 200ms;
+  }
+  
+  #dots circle.popped {
+    stroke: {{colours.CLcont1}};
+    fill: {{colours.CL1}};
+    r: 10;
+  }
+  
+  .striped ul {
+    text-align: center;
+    padding: 0px;
+  }
+  
+  .striped li {
+    padding: 5px;
+    list-style: none;
+  }
+  
+  .front-page-update {
+    border-style: solid;
+    border-width: 0 0 4px 0;
+  }
+  
+  .front-page-update:nth-child(1n) {
+    border-color: {{colours.CL1}};
+  }
+  
+  .front-page-update:nth-child(2n) {
+    border-color: {{colours.CL2}};
+  }
+  
+  .front-page-update:nth-child(3n) {
+    border-color: {{colours.CL3}};
+  }
+  
+  .front-page-update:nth-child(1) {
+    border-top-color: {{colours.CL3}};
+    border-width: 4px 0 4px 0;
+  }
+  
+  .striped li:nth-child(1) {
+    background-color: {{colours.CL1}};
+    color: {{colours.CLcont1}};
+  }
+  
+  .striped li:nth-child(2) {
+    background-color: {{colours.CL2}};
+    color: {{colours.CLcont2}};
+  }
+  
+  .striped li:nth-child(3) {
+    background-color: {{colours.CL3}};
+    color: {{colours.CLcont3}};
+  }
+  
+  .striped li:nth-child(4) {
+    background-color: {{colours.CL4}};
+    color: {{colours.CLcont4}};
+  }
+  
+  .striped li:nth-child(5) {
+    background-color: {{colours.CL1}};
+    color: {{colours.CLcont1}};
+  }
+  
+  .striped li:nth-child(6) {
+    background-color: {{colours.CL2}};
+    color: {{colours.CLcont2}};
+  }
+  
+  .striped li:nth-child(7) {
+    background-color: {{colours.CL3}};
+    color: {{colours.CLcont3}};
+  }
+  
+  .striped li:nth-child(8) {
+    background-color: {{colours.CL4}};
+    color: {{colours.CLcont4}};
+  }
+  
+  .one {
+    background-color: {{colours.CL1}}
+  }
+  
+  .oneCont {
+    color: {{colours.CLcont1}}
+  }
+  
+  .two {
+    background-color: {{colours.CL2}}
+  }
+  
+  .twoCont {
+    color: {{colours.CLcont2}}
+  }
+  
+  .three {
+    background-color: {{colours.CL3}}
+  }
+  
+  .threeCont {
+    color: {{colours.CLcont3}}
+  }
+  
+  .four {
+    background-color: {{colours.CL4}}
+  }
+  
+  .fourCont {
+    color: {{colours.CLcont4}}
+  }
+
+</style>
+
+{{/iris}}

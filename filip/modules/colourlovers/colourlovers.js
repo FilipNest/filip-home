@@ -3,10 +3,22 @@ var http = require("http");
 iris.modules.frontend.registerHook("hook_frontend_embed__colours", 0, function (thisHook, data) {
 
   var blackwhite;
-  
+
   if (thisHook.context.vars.req.cookies && thisHook.context.vars.req.cookies.blackwhite && thisHook.context.vars.req.cookies.blackwhite === "true") {
 
     blackwhite = true;
+
+  }
+  
+  if (thisHook.context.vars.req.query && thisHook.context.vars.req.query.blackwhite && thisHook.context.vars.req.query.blackwhite === "true") {
+
+    blackwhite = true;
+
+  }
+  
+   if (thisHook.context.vars.req.query && thisHook.context.vars.req.query.blackwhite && thisHook.context.vars.req.query.blackwhite === "false") {
+
+    blackwhite = false;
 
   }
 

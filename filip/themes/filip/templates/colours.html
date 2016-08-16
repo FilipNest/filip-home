@@ -2,18 +2,20 @@
 
 <a id="show-colours" href="#colours">Colours?!</a>
 <div id="colours">
-
+  
   {{#unless colours.blackwhite}}
 
-  <p>Random colour palette via the Colourlovers API. This one's called {{colours.palette.title}} and is by {{colours.palette.userName}}
+  <p>Random colour palette via the <a href="http://www.colourlovers.com/api">Colourlovers API</a>. This one's called <b>{{colours.palette.title}}</b> and is by <b>{{colours.palette.userName}}</b></p>
 
-    <br />
-
-    <a href='{{req.path}}?blackwhite="true"&'>Black and white mode.</a></p>
+    <p>Hard to read? Refresh for another or <a href='{{req.path}}?blackwhite="true"&{{moment now format="X"}}
+      '>turn on and default to black and white mode.</a></p>
+      
+    <p><small>Black and white setting is stored in a black and white cookie.</small></p>
 
   {{else}}
 
-  <p><a href='{{req.path}}?blackwhite="false"'>Random colour palette mode.</a></p> 
+    <p><a href='{{req.path}}?blackwhite="false"&{{moment now format="X"}}
+'>Return to random colour palette mode.</a></p> 
   
   {{/unless}}
 

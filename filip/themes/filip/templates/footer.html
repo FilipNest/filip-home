@@ -1,27 +1,12 @@
 <a id="show-colours" href="#colours">Colours?!</a>
 <div id="colours">
 
+  <iframe scrolling="no" src="/themes/filip/colours.css"></iframe>
 
- 
-
-    {{#eq req.cookies.blackwhite "true"}}
-
-    <p>
-  
-    <a href='{{req.path}}?blackwhite="false"'>Turn black and white mode off <small>(Stored in a black and white cookie. May need a refresh).</small></a>
+  <p>
+    <a href='{{req.path}}?blackwhite="true"&'>Black and White mode</a> <br />
+    <a href='{{req.path}}?blackwhite="false"'>Colour mode</a>
     <br />
-    
-    {{else}}
-
-    <iframe scrolling="no" src="/themes/filip/colours.css"></iframe>
-
-    <p>
-      
-    <a href='{{req.path}}?blackwhite="true"&'>Turn black and white mode on <small>(Stored in a black and white cookie. May need a refresh).</small></a><br />
-    <a href="{{req.path}}">Refresh</a> for a new palette. 
-
-    {{/eq}}
-    
     <br />
     <a href="#">Close this box.</a>
   </p>

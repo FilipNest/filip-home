@@ -81,19 +81,27 @@ iris.modules.colourlovers.registerHook("hook_request_intercept", 0, function (th
 
   if (thisHook.context.req.url === "/themes/filip/colours.css") {
 
+    var stylesheet = fs.readFileSync(iris.sitePath + "/themes/filip/static/colours.css", "utf8")
+
+    thisHook.context.res.setHeader('content-type', 'text/css');
+
     if (thisHook.context.req.cookies.blackwhite && thisHook.context.req.cookies.blackwhite === "true") {
 
+      stylesheet = "\n\n\n\n\n\n\n\n\n\n\n\n #dots {display:none;}" + stylesheet;
+
+      thisHook.context.res.send(stylesheet);
+
       thisHook.pass(data);
+
       return false;
 
     }
 
-    var stylesheet = fs.readFileSync(iris.sitePath + "/themes/filip/static/colours.css", "utf8")
-
     convert(stylesheet).then(function (output) {
 
-      thisHook.context.res.setHeader('content-type', 'text/css');
       thisHook.context.res.send(output);
+
+      thisHook.pass(data);
 
     });
 

@@ -34,12 +34,18 @@ var convert = function (stylesheet) {
 
         var palette = result[0];
 
+        var comment = "";
+
+        comment += "Colour Palette '" + palette.title + "' by '" + palette.userName + "' via the ColourLovers API";
+
         palette.colors.forEach(function (hexcolor, index) {
 
           stylesheet = stylesheet.split("CL" + index).join("#" + hexcolor);
           stylesheet = stylesheet.split("CLcont" + index).join(getContrastYIQ(hexcolor));
 
         });
+
+        stylesheet = "/*" + comment + "*/" + "\n\n\n\n\n\n\n\n\n\n\n\n" + stylesheet;
 
         pass(stylesheet);
 
@@ -55,7 +61,32 @@ var fs = require("fs");
 
 iris.modules.colourlovers.registerHook("hook_request_intercept", 0, function (thisHook, data) {
 
+  if (thisHook.context.req.query && thisHook.context.req.query.blackwhite === "true") {
+
+    thisHook.context.res.cookie('blackwhite', "true", {
+      maxAge: 900000,
+      httpOnly: true
+    });
+
+  }
+
+  if (thisHook.context.req.query && thisHook.context.req.query.blackwhite === "false") {
+
+    thisHook.context.res.cookie('blackwhite', "false", {
+      maxAge: 900000,
+      httpOnly: true
+    });
+
+  }
+
   if (thisHook.context.req.url === "/themes/filip/colours.css") {
+
+    if (thisHook.context.req.cookies.blackwhite && thisHook.context.req.cookies.blackwhite === "true") {
+
+      thisHook.pass(data);
+      return false;
+
+    }
 
     var stylesheet = fs.readFileSync(iris.sitePath + "/themes/filip/static/colours.css", "utf8")
 

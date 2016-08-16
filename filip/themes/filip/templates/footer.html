@@ -1,3 +1,34 @@
+<a id="show-colours" href="#colours">Colours?!</a>
+<div id="colours">
+
+
+ 
+
+    {{#eq req.cookies.blackwhite "true"}}
+
+    <p>
+  
+    <a href='{{req.path}}?blackwhite="false"'>Turn black and white mode off <small>(Stored in a black and white cookie. May need a refresh).</small></a>
+    <br />
+    
+    {{else}}
+
+    <iframe scrolling="no" src="/themes/filip/colours.css"></iframe>
+
+    <p>
+      
+    <a href='{{req.path}}?blackwhite="true"&'>Turn black and white mode on <small>(Stored in a black and white cookie. May need a refresh).</small></a><br />
+    <a href="{{req.path}}">Refresh</a> for a new palette. 
+
+    {{/eq}}
+    
+    <br />
+    <a href="#">Close this box.</a>
+  </p>
+
+
+</div>
+
 <footer class="one">
 
   <a href="/"><h1 id="name"><span class="one oneCont">F</span><span class="two twoCont">i</span><span class="three threeCont">l</span><span class="four fourCont">i</span><span class="one oneCont">p</span><span> </span><span class="two twoCont">H</span><span class="three threeCont">n</span><span class="four fourCont">í</span><span class="one oneCont">z</span><span class="two twoCont">d</span><span class="three threeCont">o</span></h1></a></footer>

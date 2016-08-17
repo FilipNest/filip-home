@@ -124,20 +124,21 @@
   #colours {
     display: none;
     box-sizing: border-box;
-  }
-  #colours:target {
-    display: block;
-    width: 250px;
-    height: 300px;
-    left: 50%;
     background-color: white;
-    margin-left: -150px;
-    margin-top: 30px;
     position: fixed;
-    top: 0px;
+    top:20px;
     font-size: 70%;
     z-index: 25;
     border-style: solid;
+    border-width:5px;
+    width: 250px;
+    height: 350px;
+    left:50%;
+    margin-left:-125px;
+  }
+
+  #colours:target {
+    display: block;
   }
   #colours iframe {
     border: none;
@@ -272,6 +273,7 @@
     text-align: center;
   }
   @media (min-width:700px) and (min-height:500px) {
+    
     body {
       overflow-y: hidden;
     }

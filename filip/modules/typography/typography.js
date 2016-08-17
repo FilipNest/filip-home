@@ -9,6 +9,12 @@ iris.modules.typography.registerHook("hook_entity_view", 1, function (thisHook, 
 
   }
 
+  if (data && data.intro) {
+
+    data.intro = typogr.typogrify(data.intro);
+
+  }
+
   thisHook.pass(data);
 
 })

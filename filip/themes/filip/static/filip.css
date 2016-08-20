@@ -72,6 +72,9 @@
     font-family: "bligh-light";
     text-align: justify;
   }
+  .date {
+    font-size: 80%;
+  }
   article p,
   article h1,
   article h2,

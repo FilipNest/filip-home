@@ -22,7 +22,7 @@
     <div class="box hidden">
       <ul>
         
-        {{#iris embed="entity" liveupdate="true" embedOptions='{"entities":["post"],"queries":[{"field":"categories","value":{"eid":$current.eid},"operator":"includes"}],"sort":{"date":"desc"}}' as |posts|}}
+        {{#iris embed="entity" liveupdate="true" embedOptions='{"entities":["post"],"queries":[{"field":"categories","value":{"eid":$current.eid},"operator":"includes"}],"sort":{"date":-1}}' as |posts|}}
         
           {{#each posts}}
           <li>

@@ -8,7 +8,7 @@
     
     {{/if}}
 
-    {{#iris embed="entity" embedOptions='{"entities":["$current.entityType"], "queries":[{"field":"eid","operator":"is","value":$current.eid}],"loadReferences":["categories","audio"]}' as |self|}}
+    {{#iris embed="entity" embedOptions='{"entities":["$current.entityType"], "queries":[{"field":"eid","operator":"is","value":$current.eid}],"loadReferences":["categories","audio","related"]}' as |self|}}
         
     <h1>{{self.0.title}}</h1>
   
@@ -58,6 +58,27 @@
 
       
         {{/each}}
+        
+      </section>
+      
+      {{/if}}
+      
+      {{#if self.0.related}}
+      
+      <br />
+      
+      <section class="related">
+        
+        <h3>Related posts</h3>
+      
+        <ul>
+        {{#each self.0.related}}
+        
+          <li><a href="{{this.path}}">{{this.title}}</a></li>
+        
+        {{/each}}
+        
+        </ul>
         
       </section>
       

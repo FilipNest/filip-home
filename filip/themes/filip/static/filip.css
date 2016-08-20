@@ -75,6 +75,7 @@
   article p,
   article h1,
   article h2,
+  article h3,
   article .intro {
     margin: 10px 30px 10px 30px;
   }
@@ -126,17 +127,16 @@
     box-sizing: border-box;
     background-color: white;
     position: fixed;
-    top:20px;
+    top: 20px;
     font-size: 70%;
     z-index: 25;
     border-style: solid;
-    border-width:5px;
+    border-width: 5px;
     width: 250px;
     height: 350px;
-    left:50%;
-    margin-left:-125px;
+    left: 50%;
+    margin-left: -125px;
   }
-
   #colours:target {
     display: block;
   }
@@ -273,7 +273,6 @@
     text-align: center;
   }
   @media (min-width:700px) and (min-height:500px) {
-    
     body {
       overflow-y: hidden;
     }

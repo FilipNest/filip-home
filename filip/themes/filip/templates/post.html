@@ -29,9 +29,7 @@
     <article>
 
       <span class="intro">{{{self.0.intro}}}</span>
-      
-      {{{iris embed="template" template="extra__$current.eid"}}}
-            
+                  
       {{{self.0.body}}}
       
       {{#if self.0.audio}}
@@ -62,6 +60,8 @@
       </section>
       
       {{/if}}
+      
+      {{{iris embed="template" template="extra__$current.eid"}}}
       
       {{#if self.0.related}}
       

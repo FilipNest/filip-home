@@ -29,6 +29,8 @@
 
   var dotty = document.getElementById('dotty');
 
+  var poppedTotal = 0;
+
   document.getElementById("dots").onclick = function(event) {
 
     var y = event.pageY - $('#dots').offset().top;
@@ -65,7 +67,15 @@
 
     if (typeof popped !== "undefined") {
 
+      poppedTotal += 1;
+
       dotElements[popped].setAttribute("class", "popped");
+
+      if (poppedTotal === dots.length) {
+
+        alert("Well done! Ping me an email and I'll tell you when completing this does something new.")
+
+      }
 
     }
 

@@ -8,8 +8,8 @@
   <meta property="og:url" content="http://filipnest.com{{current.path}}" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{current.title}} - Filip Hnízdo" />
-  <META name="Description" content="{{current.intro}}">
-  <meta property="og:description" content="{{current.intro}}" />
+  <META name="Description" content="{{sanitize current.intro}}">
+  <meta property="og:description" content="{{sanitize current.intro}}" />
   <meta property="og:image" content="http://filipnest.com{{current.lead_image.path}}?=1" />
   
     {{{iris embed="template" template="header"}}}

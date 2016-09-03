@@ -9,14 +9,14 @@ iris.modules.frontend.registerHook("hook_frontend_embed__colours", 0, function (
     blackwhite = true;
 
   }
-  
+
   if (thisHook.context.vars.req.query && thisHook.context.vars.req.query.blackwhite && thisHook.context.vars.req.query.blackwhite === "true") {
 
     blackwhite = true;
 
   }
-  
-   if (thisHook.context.vars.req.query && thisHook.context.vars.req.query.blackwhite && thisHook.context.vars.req.query.blackwhite === "false") {
+
+  if (thisHook.context.vars.req.query && thisHook.context.vars.req.query.blackwhite && thisHook.context.vars.req.query.blackwhite === "false") {
 
     blackwhite = false;
 
@@ -45,11 +45,15 @@ iris.modules.frontend.registerHook("hook_frontend_embed__colours", 0, function (
 
       var palette = result[0];
 
-      var comment = "";
+      if (!palette) {
 
-      comment += "Colour Palette '" + palette.title + "' by '" + palette.userName + "' via the ColourLovers API";
+        palette = {
+          colours = ["ffffff"]
+        };
 
-      var output = {};
+        blackwhite = true;
+
+      }
 
       output.blackwhite = blackwhite;
       output.palette = result[0];
@@ -68,7 +72,7 @@ iris.modules.frontend.registerHook("hook_frontend_embed__colours", 0, function (
         }
 
       });
-
+      
       thisHook.pass({
         variables: [output]
       });

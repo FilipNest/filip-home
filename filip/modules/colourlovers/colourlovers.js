@@ -22,7 +22,7 @@ iris.modules.frontend.registerHook("hook_frontend_embed__colours", 0, function (
 
   }
 
-  http.get('http://www.colourlovers.com/api/palettes/random?format=json', function (response) {
+  var request = http.get('http://www.colourlovers.com/api/palettes/random?format=json', function (response) {
 
     var output = {};
 
@@ -33,7 +33,6 @@ iris.modules.frontend.registerHook("hook_frontend_embed__colours", 0, function (
     });
 
     response.on('end', function () {
-
 
       var result = JSON.parse(str);
 
@@ -48,9 +47,8 @@ iris.modules.frontend.registerHook("hook_frontend_embed__colours", 0, function (
 
       var palette = result[0];
 
-
       if (!palette) {
-        
+
         palette = {
           colors: ["ffffff", "ffffff", "ffffff", "ffffff", "ffffff"]
         };
@@ -81,6 +79,26 @@ iris.modules.frontend.registerHook("hook_frontend_embed__colours", 0, function (
         variables: [output]
       });
 
+    });
+
+  });
+
+  request.setTimeout(1000, function () {
+
+    var output = {};
+
+    output.blackwhite = true;
+    output.error = true;
+
+    for (var i = 0; i < 6; i += 1) {
+
+      output["CL" + i] = "black";
+      output["CLcont" + i] = "white";
+
+    }
+
+    thisHook.pass({
+      variables: [output]
     });
 
   });

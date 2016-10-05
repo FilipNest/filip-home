@@ -13,9 +13,16 @@
     <p><small>Black and white setting is stored in a black and white cookie.</small></p>
 
   {{else}}
-
-    <p><a href='{{req.path}}?blackwhite="false"&{{moment now format="X"}}
-'>Return to random colour palette mode.</a></p> 
+  
+  {{#if colours.error}}
+  
+  <p>The Colourlovers API seems to be down so this is black and white.</p>
+  
+    {{else}}
+  
+      <p><a href='{{req.path}}?blackwhite="false"&{{moment now format="X"}} '>Return to random colour palette mode.</a></p> 
+  
+  {{/if}}
   
   {{/unless}}
 

@@ -1,93 +1,72 @@
-  <header class="two twoCont">
-    
-  {{{iris embed="template" name="background"}}}
+<header class="two twoCont">
 
-    {{#if current.lead_image.title}}
+  {{{iris embed="template" name="background"}}} {{#if current.lead_image.title}}
 
-    <img alt="{{current.lead_image.alt}}" title="{{current.lead_image.title}}" src="{{current.lead_image.path}}" /> 
-    
-    {{/if}}
+  <img alt="{{current.lead_image.alt}}" title="{{current.lead_image.title}}" src="{{current.lead_image.path}}" /> {{/if}} {{#iris embed="entity" embedOptions='{"entities":["$current.entityType"], "queries":[{"field":"eid","operator":"is","value":$current.eid}],"loadReferences":["categories","audio","related"]}' as |self|}}
 
-    {{#iris embed="entity" embedOptions='{"entities":["$current.entityType"], "queries":[{"field":"eid","operator":"is","value":$current.eid}],"loadReferences":["categories","audio","related"]}' as |self|}}
-        
-    <h1>{{self.0.title}}</h1>
-  
-      <ul id="categories">
-        
-        {{#each self.0.categories}}
+  <h1>{{self.0.title}}</h1>
 
-          <a href="{{this.path}}">{{this.title}}</a>
+  <ul id="categories">
 
-        {{/each}}
-        
-      </ul>
-          
-  </header>
+    {{#each self.0.categories}}
 
-  <main>
+    <a href="{{this.path}}">{{this.title}}</a> {{/each}}
 
-    <article>
+  </ul>
 
-      <span class="intro">{{{self.0.intro}}}</span>
-                  
-      {{{self.0.body}}}
-      
-      {{#if self.0.audio}}
-      
-      <section class="audio">
-        
-         {{#each self.0.audio}}
-        
-        <div class="track">
-          
+</header>
+
+<main>
+
+  <article>
+
+    <span class="intro">{{{self.0.intro}}}</span> {{{self.0.body}}} {{#if self.0.audio}}
+
+    <section class="audio">
+
+      {{#each self.0.audio}}
+
+      <div class="track">
+
         <h1>{{this.title}}</h1>
-              
+
         <audio controls="controls">
           <source src="{{this.file}}" type="audio/mpeg">
         </audio>
-
-<!--
+        
         <div class="info">
-          <a href="">View info</a><a href="http://filipnest.com/sites/default/files/It%27s%20plants_0.mp3">Download</a>
+          <a href="/audiotrack/{{this.eid}}">View info</a><a href="{{this.file}}">Download</a>
         </div>
--->
-          
-          </div>
 
-      
-        {{/each}}
-        
-      </section>
-      
-      {{/if}}
-      
-      {{{iris embed="template" name="extra__$current.eid"}}}
-      
-      {{#if self.0.related}}
-      
-      <br />
-      
-      <section class="related">
-        
-        <h3>Related posts</h3>
-      
-        <ul>
+      </div>
+
+
+      {{/each}}
+
+    </section>
+
+    {{/if}} {{{iris embed="template" name="extra__$current.eid"}}} {{#if self.0.related}}
+
+    <br />
+
+    <section class="related">
+
+      <h3>Related posts</h3>
+
+      <ul>
         {{#each self.0.related}}
-        
-          <li><a href="{{this.path}}">{{this.title}}</a></li>
-        
+
+        <li><a href="{{this.path}}">{{this.title}}</a></li>
+
         {{/each}}
-        
-        </ul>
-        
-      </section>
-      
-      {{/if}}
 
-  
-    {{/iris}}
+      </ul>
 
-           
-    </article>
+    </section>
 
-  </main>
+    {{/if}} {{/iris}}
+
+
+  </article>
+
+</main>

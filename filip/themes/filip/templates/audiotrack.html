@@ -17,6 +17,24 @@
       <hr />
       
       {{/if}}
+      
+      <section class="audio">
+
+      <div class="track">
+
+        <h1>{{this.title}}</h1>
+
+        <audio controls="controls">
+          <source src="{{current.file}}" type="audio/mpeg">
+        </audio>
+        
+        <div class="info">
+  <a href="{{current.file}}">Download</a>
+        </div>
+
+      </div>
+
+    </section>
                         
      {{{current.words}}}
            

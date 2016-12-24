@@ -81,6 +81,7 @@
   article h3,
   article .intro {
     margin: 10px 30px 10px 30px;
+    line-height: 110%;
   }
   .image-box {
     margin: 20px 30px 20px 30px;

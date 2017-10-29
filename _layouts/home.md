@@ -22,7 +22,9 @@
 
     <section class="featured-projects">
 
-      <h1 class="featured-projects striped-invert">Featured projects: </h1>
+      <div class="featured-projects-list">
+
+      <h1>Featured projects: </h1>
 
       {% for post in site.posts %}
 
@@ -50,7 +52,9 @@
 
       {% endfor %}
 
+      </div>
+
     </section>
-    
+
     </main>
   {% include footer.html %}

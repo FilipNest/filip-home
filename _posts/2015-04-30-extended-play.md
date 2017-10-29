@@ -6,9 +6,9 @@ tags:
   - code
 featured: true
 description: "A series of eternal compositions."
+image: /images/extendedplay.jpg
 
 ---
-
 
 Extended Play is a series of eternal compositions.
 

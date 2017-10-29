@@ -22,7 +22,7 @@ html, body {
   box-sizing: border-box;
 }
 
-.post h1 {
+.post h1.main {
   text-align: center;
   margin-bottom: 0.5em;
   display: block;

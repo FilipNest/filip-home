@@ -2,13 +2,23 @@
 
 <main class="post">
 
-<h1>{{page.title}}<span class="bullet">.</span></h1>
+<h1 class="main">{{page.title}}<span class="bullet">.</span></h1>
 
 {% if page.image %}
 <img class="post-image" src="{{page.image}}"/>
 {% endif %}
 
 {{content}}
+
+{% if page.album %}
+
+  {% assign a = '/albums/' %}
+  {% assign b = a | append: page.album %}
+  {% assign c = b | append: '/index.html' %}
+
+  {% include {{c}} %}
+
+{% endif %}
 
 <div class="tags">
 Tagged with:

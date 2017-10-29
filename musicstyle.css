@@ -11,6 +11,11 @@
   font-size: 2em;
 }
 
+.album header {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
 .track h1 {
   font-size: 1.5em;
 }

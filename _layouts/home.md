@@ -51,6 +51,6 @@
       {% endfor %}
 
     </section>
-    {% include music.html %}
+    
     </main>
   {% include footer.html %}

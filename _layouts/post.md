@@ -4,9 +4,13 @@
 
 <h1 class="main">{{page.title}}<span class="bullet">.</span></h1>
 
-{% if page.image %}
-<img class="post-image" src="{{page.image}}"/>
-{% endif %}
+{% unless page.album %}
+
+  {% if page.image %}
+    <img class="post-image" src="{{page.image}}"/>
+  {% endif %}
+
+{% endunless %}
 
 {{content}}
 

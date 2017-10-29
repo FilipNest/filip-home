@@ -8,7 +8,7 @@
       <h1>Recent updates</h1>
       <ul>
 
-      {% for post in site.posts limit:1000 %}
+      {% for post in site.posts limit:7 %}
 			   <li>
           <a href="{{ post.url }}">{{ post.title }}</a> <span class="date">{{ post.date | date: "%b %d, %Y" }}</span>
         </li>

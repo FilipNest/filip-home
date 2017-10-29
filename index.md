@@ -5,6 +5,8 @@ layout: home
 
 ---
 
-<p>I'm Filip Hnzdo (pronounced "Nest").</p>
-<p>I write poetry, music, stories and computer programs, sometimes dabbling in other art things. I like writing about other people's music.</p>
-<p>None of this makes me any money but I work at <a href="https://octophindigital.com">OctophinDigital</a> where we make greatthings on the web for great people and animals.</p>
+I'm Filip Hnzdo (pronounced "Nest").
+
+I write [poetry](/tag/poetry), [music](#music), [stories](/tag/stories) and [computer programs](/tag/code), sometimes dabbling in other art things. I also like writing about [other people's art](/tag/reviews) on here.
+
+None of this makes me any money but I work at [Octophin Digital](https://octophindigital.com) where we make great things on the web for great people and animals.

@@ -89,7 +89,7 @@ html, body {
 .music-heading {
   width: 300px;
   margin: auto;
-  padding: 40px;
+  padding: 1em;
   font-size: 3em;
   text-align: center;
   font-family: Gill Sans Nova W01 Book Italic;
@@ -152,7 +152,7 @@ p+p {
 /* Main */
 
 main {
-  padding: 0 1em 1em 1em;
+  padding: 0 1em 0em 1em;
 }
 
 section.block {

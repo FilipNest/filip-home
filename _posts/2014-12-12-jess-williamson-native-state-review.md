@@ -1,7 +1,7 @@
 ---
 
 title: Native State by Jess Williamson
-tags: review
+tags: reviews
 image: /images/jess_williamson_native_state.jpg
 
 ---

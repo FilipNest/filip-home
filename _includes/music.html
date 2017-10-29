@@ -1,0 +1,33 @@
+  <section id="music" class="music">
+
+    <h1 class="music-heading">Music</h1>
+
+  <section class="album-list">
+
+    {% for post in site.posts %}
+
+      {% if post.album %}
+
+    <article class="album-list-item">
+
+      <a class="listen" href="{{post.url}}">
+
+        <img class="album-image" src="{{post.image}}"/>
+
+      <div class="album-info">
+
+        <h1 class="album-title">{{post.title}}</h1>
+
+      </div>
+
+    </a>
+
+    </article>
+
+      {% endif %}
+
+    {% endfor %}
+
+  </section>
+
+  </section>

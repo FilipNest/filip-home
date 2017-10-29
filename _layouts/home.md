@@ -1,29 +1,8 @@
----
-
-title: Home
-
----
-
-<!DOCTYPE HTML>
-<html>
-
-<head>
-  <title>Filip Hnízdo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <link rel="stylesheet" href="style.css">
-  <script src="tinycolor.js"></script>
-  <script type="text/javascript" src="//fast.fonts.net/jsapi/64ef2766-d748-4835-bad8-4e36ce3ed949.js">
-  </script>
-</head>
-
-<body>
+{% include header.html %}
   <main>
     <h1>Hullo<span class="bullet">.</span></h1>
     <section class="striped-border block narrow-block">
-      <p>I'm Filip Hnzdo (pronounced "Nest").</p>
-      <p>I write poetry, music, stories and computer programs, sometimes dabbling in other art things. I like writing about other people's music.</p>
-      <p>None of thismakes me any money but I work at <a href="https://octophindigital.com">OctophinDigital</a> where we make greatthings on the web for great people and animals.</p>
+      {{content}}
     </section>
     <section class="striped-border block wide-block">
       <h1>Recent updates</h1>
@@ -62,10 +41,6 @@ title: Home
       <section class="striped-background filled-block">
         <h1>An adventure in playing with colours</h1> </section>
     </section>
-    <h1 class="music-heading">Music</h1></main>
-  <footer>
-    <h1 class="striped">Filip Hnzdo</h1> </footer>
-  <script src="script.js"></script>
-</body>
-
-</html>
+    {% include music.html %}
+    </main>
+  {% include footer.html %}

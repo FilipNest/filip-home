@@ -34,13 +34,6 @@ h1.featured-projects {
   text-transform: uppercase;
 }
 
-.music-heading:before, .music-heading:after {
-  content: "\2B24";
-  font-size: 0.5em;
-  padding: 1em;
-  box-sizing: border-box;
-}
-
 .filled-block {
   width: calc(100% / 5 - 0.4em);
   position: relative;

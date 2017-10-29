@@ -1,4 +1,11 @@
+{{#unless copy}}
+
 {{> header }}
+
+{{/unless}}
+
+<section id="music" class="music">
+  <h1 class="music-heading">Music</h1>
 
 <section class="album-list">
 
@@ -6,13 +13,9 @@
 
   <article class="album-list-item">
 
-    <a class="listen" href="{{this.link}}">
+    <a class="listen" href="/albums/{{this.link}}">
 
-    {{#if this.tracks.0.picture}}
       <img class="album-image" src="{{{this.tracks.0.picture}}}"/>
-    {{else}}
-      <img class="album-image" src="http://placekitten.com/g/300/300"/>
-    {{/if}}
 
     <div class="album-info">
 
@@ -30,4 +33,10 @@
 
 </section>
 
+</section>
+
+{{#unless copy}}
+
 {{> footer }}
+
+{{/unless}}

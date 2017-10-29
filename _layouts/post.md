@@ -4,6 +4,10 @@
 
 <h1>{{page.title}}<span class="bullet">.</span></h1>
 
+{% if page.image %}
+<img class="post-image" src="{{page.image}}"/>
+{% endif %}
+
 {{content}}
 
 <div class="tags">

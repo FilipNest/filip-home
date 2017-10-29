@@ -44,8 +44,15 @@ html, body {
   flex-wrap: wrap;
 }
 
+.post-image {
+  display: block;
+  margin-bottom: 1.5em;
+  width: 100%;
+}
+
 .featured-projects h1 {
   font-size: 3em;
+  margin-right: 0.2em;
   vertical-align: middle;
 }
 
@@ -104,6 +111,11 @@ ul {
 
 ul li {
   list-style: none;
+  margin: 0.5em 0 0.5em 0;
+}
+
+ul li a {
+  text-decoration: none;
 }
 
 .bullet {

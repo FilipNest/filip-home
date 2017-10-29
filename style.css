@@ -2,7 +2,10 @@ html, body {
   margin: 0px;
   background-color: white;
   font-family: Gill Sans Nova W01 Book;
-  margin-bottom: 100px;
+}
+
+body {
+  margin-bottom: 2em;
 }
 
 html {
@@ -317,7 +320,7 @@ footer h1 span {
 }
 
 footer h1 {
-  left:0px;
+  left: 0px;
   opacity: 0.8;
   background-color: var(--colour1);
   font-size: 1.5em;

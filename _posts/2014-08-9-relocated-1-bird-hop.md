@@ -3,6 +3,7 @@
 title: Relocated 1 Bird Pop
 album: Relocated_1_-_Bird_Pop
 tags: music
+images: /birdpop.jpg
 
 ---
 

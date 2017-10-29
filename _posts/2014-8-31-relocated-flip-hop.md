@@ -1,8 +1,9 @@
 ---
 
 title: Relocated 2 Flip Hop
-album: Relocated_2_-_Flip_Pop
+album: Relocated_2_-_Flip_Hop
 tags: music
+image: /images/fliphop.png
 
 ---
 

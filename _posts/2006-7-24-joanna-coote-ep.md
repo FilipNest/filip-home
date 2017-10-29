@@ -3,6 +3,7 @@
 title: Joanna Coote EP
 tags: music
 album: The_Joanna_Coote_EP
+image: /images/joannacooteep.jpg
 
 ---
 

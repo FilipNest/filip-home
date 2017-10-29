@@ -3,6 +3,7 @@
 title: First Recordings (September 2005 - May 2007)
 album: First_Recordings
 tags: music
+image: /images/firstrecordings.jpg
 
 ---
 

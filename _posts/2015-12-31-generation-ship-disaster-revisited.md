@@ -3,6 +3,7 @@
 title: Generation Ship Disaster Revisited
 album: generation_ship_disaster_revisited
 tags: music stories poetry
+image: /images/generationshipdisasterrevisited.jpg
 
 ---
 

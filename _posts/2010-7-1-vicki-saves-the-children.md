@@ -3,6 +3,7 @@
 title: Vicki Saves the Children
 album: Vicki_Saves_the_Children
 tags: music
+image: /images/vickisavesthechildren.jpg
 
 ---
 

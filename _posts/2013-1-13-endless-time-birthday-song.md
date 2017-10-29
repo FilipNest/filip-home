@@ -3,6 +3,7 @@
 title: Endless Time Birthday Song
 album: Endless_Time_Birthday_Song
 tags: music poetry
+image: /images/endlesstimebirthdaysong.png
 
 ---
 

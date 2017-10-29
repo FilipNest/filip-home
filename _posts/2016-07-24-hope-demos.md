@@ -3,6 +3,7 @@
 title: Hope demos
 album: Hope_Demos
 tags: music poetry
+image: /images/hope.png
 
 ---
 

@@ -3,6 +3,7 @@
 title: Moths
 album: Moths
 tags: music poetry
+image: /images/moths.jpg
 
 ---
 

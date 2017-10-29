@@ -3,6 +3,7 @@
 title: Halloween EPs 2014 - Mirrorball and Monsters
 tags: music poetry
 album: Mirrorball_Monsters
+image: /images/mirrorballmonsters.jpg
 
 ---
 

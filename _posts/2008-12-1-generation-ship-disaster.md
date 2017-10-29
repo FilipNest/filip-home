@@ -3,6 +3,7 @@
 title: Generation Ship Disaster
 album: Generation_Ship_Disaster
 tags: music
+image: /images/generationshipdisaster.jpg
 
 ---
 

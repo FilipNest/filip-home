@@ -3,6 +3,7 @@
 title: Three Imaginary Girls EP
 album: Three_Imaginary_Girls
 tags: music
+image: /images/threeimaginarygirls.jpg
 
 ---
 

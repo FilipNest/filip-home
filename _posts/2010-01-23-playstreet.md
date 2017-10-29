@@ -3,6 +3,7 @@
 title: Playstreet
 album: Playstreet
 tags: music
+image: /images/playstreet.png
 
 ---
 

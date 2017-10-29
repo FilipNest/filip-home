@@ -290,7 +290,7 @@ section.wide-block {
 
 @media (max-width: 1350px){
 
-  section.wide-block {width:12em;}
+  section.wide-block {width:14em; font-size:0.8em;}
 
 }
 
@@ -300,12 +300,9 @@ section.wide-block {
     display: inline-block;
     position: relative;
     height: auto;
-    border-style: solid;
-    border-width: 0 2px 0 0;
     padding-left: 1.2em;
-    border-color: var(--colour1);
   }
-  section.wide-block {width:20em;}
+  section.wide-block {width:20em; font-size:1em;}
 }
 
 /* Mobile */
@@ -316,6 +313,8 @@ section.wide-block {
     position: relative;
     width: 100%;
     height: auto;
+    border-style:solid;
+    border-color: var(--colour1);
     border-width: 0px 2px 2px 2px;
   }
   .portrait {

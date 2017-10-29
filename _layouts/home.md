@@ -1,7 +1,7 @@
 {% include header.html %}
   <main>
   <img class="portrait" src="http://filipnest.com/files/green.jpg" />
-    <h1 class="main-title">Hullo<span class="bullet">.</span></h1><br />
+    <h1 class="main-title">Hullo<span class="bullet">.</span></h1>
     <section class="striped-border block narrow-block">
       {{content}}
     </section>

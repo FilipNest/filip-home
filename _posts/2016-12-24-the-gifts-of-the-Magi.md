@@ -3,6 +3,7 @@
 title: The Gifts of the Magi (verse and epilogue)
 tags: poetry stories
 image: \images\giftsofthemagi.png
+featured: true
 
 ---
 

@@ -3,6 +3,7 @@
 title: Coloured Squares 10k
 image: /images/colouredsquares10k.png
 tags: code
+featured: true
 
 ---
 

@@ -2,7 +2,7 @@
 
 title: Hope demos
 album: Hope_Demos
-tags: music
+tags: music poetry
 
 ---
 

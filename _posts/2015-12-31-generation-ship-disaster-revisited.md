@@ -2,7 +2,7 @@
 
 title: Generation Ship Disaster Revisited
 album: generation_ship_disaster_revisited
-tags: music
+tags: music stories poetry
 
 ---
 

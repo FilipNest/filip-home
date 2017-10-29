@@ -67,3 +67,9 @@ letterWrap(".music-heading", function(element, index, fullIndex) {
   element.setAttribute("class", "striped-colour");
 
 }, 3);
+
+Array.from(document.querySelectorAll("p")).forEach(function(e){
+
+  e.innerHTML = e.innerHTML.split("\n").join("<br />")
+
+});

@@ -17,11 +17,12 @@ Hazy vis­ion, filtered light.
 
 A screen a book, a down­ward stare
 Quick run through make-up, dress and hair.
+
 Good­bye every­one to­gether.
 ​Dif­fer­ent fab­ric stitched the same.
-
 Good­bye an­noun­cers bored of say­ing:
 “We’re sorry we’ve delayed this train.”
+
 Good­bye couples never talk­ing.
 Though phone calls out are al­ways loud.
 Good­bye dreams of brief en­coun­ters.

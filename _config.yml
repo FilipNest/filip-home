@@ -1,0 +1,17 @@
+title: "Filip Hnízdo"
+email: mail@filipnest.com
+description: Filip's homepage.
+url: "https://filipnest.com"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+exclude: [music_templates]

@@ -1,7 +1,2 @@
-filip/logs
-filip/files
-filip/nedb
-filip/local
-filip/configurations
-filip/themes/filip/static/fonts
-node_modules
+_site
+music

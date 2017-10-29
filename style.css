@@ -1,0 +1,225 @@
+html, body {
+  margin: 0px;
+  background-color: white;
+  font-family: Gill Sans Nova W01 Book;
+  margin-bottom: 100px;
+}
+
+.portrait {
+  top: 0px;
+  right: 0px;
+  height: 100vh;
+  position: absolute;
+}
+
+section.featured-projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1.featured-projects {
+  padding: 20px;
+  font-size: 3em;
+  vertical-align: middle;
+  font-family: Gill Sans Nova W01 Book Italic;
+}
+
+.music-heading {
+  width: 300px;
+  margin: auto;
+  padding: 40px;
+  font-size: 3em;
+  text-align: center;
+  font-family: Gill Sans Nova W01 Book Italic;
+  text-transform: uppercase;
+}
+
+.music-heading:before, .music-heading:after {
+  content: "\2B24";
+  font-size: 0.5em;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.filled-block {
+  width: calc(100% / 5 - 0.4em);
+  position: relative;
+  padding: 20px;
+  margin: 0.2em;
+  box-sizing: border-box;
+  display: block;
+}
+
+.filled-block h1 {
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+  font-family: Gill Sans Nova W01 Book Italic;
+  font-size: 1em;
+}
+
+h1 {
+  font-family: 'Gill Sans Nova W01 Medium';
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  font-size: 4em;
+  font-weight: normal;
+}
+
+ul {
+  padding: 0px
+}
+
+ul li {
+  list-style: none;
+}
+
+.bullet {
+  color: var(--colour0)
+}
+
+ul li::before {
+  content: "\2B24";
+  padding-right: 0.5em;
+}
+
+body {
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+a:link, a:visited {
+  color: inherit;
+}
+
+* {
+  max-width: 100% !important;
+}
+
+p {
+  line-height: 1.4em;
+  margin: 0px;
+}
+
+p+p {
+  margin-top: 10px;
+}
+
+/* Main */
+
+main {
+  padding: 0 1em 1em 1em;
+}
+
+section.block {
+  box-sizing: border-box;
+  vertical-align: top;
+  display: inline-block;
+  border-style: solid;
+  border-width: 0 2px 0 0;
+  padding-left: 0.2em;
+  padding-right: 1em;
+}
+
+.striped-border:nth-child(4n+0) {
+  border-color: var(--colour0);
+}
+
+.striped-border:nth-child(4n+1) {
+  border-color: var(--colour1);
+}
+
+.striped-border:nth-child(4n+2) {
+  border-color: var(--colour2);
+}
+
+.striped-border:nth-child(4n+3) {
+  border-color: var(--colour3);
+}
+
+.striped-colour:nth-child(4n) {
+  color: var(--colour0);
+}
+
+.striped-colour:nth-child(4n+1) {
+  color: var(--colour1);
+}
+
+.striped-colour:nth-child(4n+2) {
+  color: var(--colour2);
+}
+
+.striped-colour:nth-child(4n+3) {
+  color: var(--colour3);
+}
+
+.striped-background:nth-child(4n+0) {
+  background-color: var(--colour0);
+}
+
+.striped-background:nth-child(4n+1) {
+  background-color: var(--colour1);
+}
+
+.striped-background:nth-child(4n+2) {
+  background-color: var(--colour2);
+}
+
+.striped-background:nth-child(4n+3) {
+  background-color: var(--colour3);
+}
+
+ul li:nth-child(1n):before {
+  color: var(--colour0);
+}
+
+ul li:nth-child(2n):before {
+  color: var(--colour1);
+}
+
+ul li:nth-child(3n):before {
+  color: var(--colour2);
+}
+
+ul li:nth-child(4n):before {
+  color: var(--colour3);
+}
+
+section.block+section.block {
+  padding-left: 1em;
+}
+
+section.narrow-block {
+  width: 11em;
+}
+
+section.wide-block {
+  width: 20em;
+}
+
+section.block h1 {
+  font-size: 1.5em;
+}
+
+/* Footer */
+
+footer h1 span {
+  letter-spacing: 0.2em;
+  color: white;
+}
+
+footer h1 {
+  opacity: 0.8;
+  background-color: var(--colour1);
+  font-size: 1.5em;
+  text-align: right;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  margin: 0px;
+}

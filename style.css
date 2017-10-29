@@ -5,6 +5,13 @@ html, body {
   margin-bottom: 100px;
 }
 
+html {
+  position: relative;
+  max-width: 100%;
+  width: 1800px;
+  margin: auto;
+}
+
 .post .tags {
   display: block;
   margin-top: 20px;
@@ -39,12 +46,39 @@ html, body {
   right: 0px;
   height: 100vh;
   position: absolute;
+  max-height: 1000px;
+}
+
+@media (max-width:1400px) {
+  .portrait {
+    width: 30%;
+    height: auto;
+    border-style: solid;
+    border-width: 0px 0px 2px 2px;
+    border-color: var(--colour1);
+  }
+}
+
+@media (max-width:900px) {
+  .portrait {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-width: 0px 2px 2px 2px;
+  }
 }
 
 .featured-projects-list {
-    align-items: center;
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .featured-projects-title {
+    display: block;
+    font-size: 1.8em !important;
+  }
 }
 
 .post-image {
@@ -86,8 +120,27 @@ html, body {
   display: block;
 }
 
+@media (max-width: 1200px) {
+  .filled-block {
+    width: calc(100% / 3 - 0.4em);
+  }
+}
+
+@media (max-width: 700px) {
+  .filled-block {
+    width: calc(100% / 2 - 0.4em);
+  }
+}
+
+@media (max-width: 500px) {
+  .filled-block {
+    width: 100%;
+  }
+}
+
 .music-heading {
   width: 300px;
+  box-sizing: border-box;
   margin: auto;
   padding: 1em;
   font-size: 3em;
@@ -241,6 +294,17 @@ section.wide-block {
   width: 20em;
 }
 
+@media (max-width: 700px) {
+  section.narrow-block {
+    width: 100%;
+  }
+  section.wide-block {
+    margin-top: 1em;
+    width: 100%;
+    padding-left: 0px !important;
+  }
+}
+
 section.block h1 {
   font-size: 1.5em;
 }
@@ -253,6 +317,7 @@ footer h1 span {
 }
 
 footer h1 {
+  left:0px;
   opacity: 0.8;
   background-color: var(--colour1);
   font-size: 1.5em;

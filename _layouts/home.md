@@ -1,11 +1,12 @@
 {% include header.html %}
   <main>
-    <h1>Hullo<span class="bullet">.</span></h1>
+  <img class="portrait" src="http://filipnest.com/files/green.jpg" />
+    <h1 class="main-title">Hullo<span class="bullet">.</span></h1><br />
     <section class="striped-border block narrow-block">
       {{content}}
     </section>
     <section class="striped-border block wide-block">
-      <h1>Recent updates</h1>
+      <h1 class="recent-updates">Recent updates</h1>
       <ul>
 
       {% for post in site.posts limit:7 %}
@@ -18,13 +19,12 @@
 
     </section>
 
-    <img class="portrait" src="http://filipnest.com/files/green.jpg" />
 
     <section class="featured-projects">
 
       <div class="featured-projects-list">
 
-      <h1>Featured projects: </h1>
+      <h1 class="featured-projects-title">Featured projects: </h1>
 
       {% for post in site.posts %}
 

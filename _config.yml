@@ -24,5 +24,6 @@ tag_page_dir: tag
 
 plugins:
 - jekyll/tagging
+- jekyll-seo-tag
 
 permalink: :title

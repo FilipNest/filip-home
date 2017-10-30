@@ -8,6 +8,8 @@ body {
   margin-bottom: 2em;
 }
 
+.post .date {position: relative; top:-1em; display: block; width:100%; text-align: center; font-size: 0.8em;}
+
 html {
   position: relative;
   max-width: 100%;

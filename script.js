@@ -68,8 +68,22 @@ letterWrap(".music-heading", function(element, index, fullIndex) {
 
 }, 3);
 
-Array.from(document.querySelectorAll("p")).forEach(function(e){
+// Poetry splitter
+
+Array.from(document.querySelectorAll("p")).forEach(function(e) {
 
   e.innerHTML = e.innerHTML.split("\n").join("<br />")
 
 });
+
+// Audio playlister
+
+Array.from(document.querySelectorAll("audio")).forEach(function(element, index, list) {
+
+  if (list[index + 1]) {
+
+    element.onended = () => list[index + 1].play();
+
+  }
+
+})

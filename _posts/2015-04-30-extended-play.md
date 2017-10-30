@@ -14,7 +14,7 @@ Extended Play is a series of eternal compositions.
 
 Each is based on a col­lec­tion of in­stru­ments play­ing five pat­terns of three seconds each. These pat­terns (aside from un­tuned per­cus­sion in­stru­ments) have been trans­posed into twelve mu­sical keys and play ran­domly.
 
-It can be found at exten­ded­play.filipn­est.com
+It can be found at [exten­ded­play.filipn­est.com](exten­ded­play.filipn­est.com)
 
 I’ve wanted to do this pro­ject for a long time, first mak­ing at­tempts some time around 2010/​11 with a one minute ukulele track cut into two or three second pieces (the ori­ginal idea was one second but MP3 play­ers can’t shuffle in time). I for some silly reason left this proof of concept as it was for years rather than try­ing to do it prop­erly. The concept was that you could listen to the same piece of mu­sic for much longer than its run­ning time if it were shuffled ran­domly and very short. Parts would com­bine into new parts.
 

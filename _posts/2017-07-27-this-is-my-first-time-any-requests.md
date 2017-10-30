@@ -4,7 +4,7 @@ title: This is My First Time. Any requests?
 image: /images/anyrequests.jpg
 tags: music poetry
 featured: true
-description: A double-cd compilation of the last ten years of my music. First CD is songs, second instrumental, spoken word and other.
+description: A double-cd compilation of the last ten years of my music.
 
 ---
 

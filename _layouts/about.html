@@ -1,0 +1,36 @@
+{% include header.html %}
+
+<style>
+  html,
+  body {
+    background-color: var(--colour2);
+    text-align: center;
+    color: white;
+  }
+
+
+  #about-title {
+    font-size: calc(4em + 10vw);
+    margin-bottom: 2rem;
+  }
+
+  .about {
+    width:800px;
+    margin:auto;
+    padding:2rem;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: 2em;
+  }
+</style>
+
+<main id="about">
+  <h1 class="striped" id="about-title">Filip Hnízdo</h1>
+
+  <section class="about">
+    {{content}}
+  </section>
+
+</main>
+
+{% include footer.html %}

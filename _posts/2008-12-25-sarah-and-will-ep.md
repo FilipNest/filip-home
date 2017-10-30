@@ -7,4 +7,4 @@ image: /images/sarahandwillep.jpg
 
 ---
 
-Ringtones written for Sarah Phillips and William Proudfoot in 2008.
+Ringtones written for Sarah Phillips and William Proudfoot for Christmas in 2008.

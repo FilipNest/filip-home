@@ -4,6 +4,7 @@ title: Sexy But Ridiculous
 image: /images/sexybutridiculous.jpg
 tags: stories
 featured: true
+description: My first short story collection, beautifully illustrated by Anna Šebestová
 
 ---
 

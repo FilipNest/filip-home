@@ -27,7 +27,7 @@
 
       <h1 class="featured-projects-title">Featured projects: </h1>
 
-      {% for post in site.posts offset:7 %}
+      {% for post in site.posts %}
 
         {% if post.featured %}
 

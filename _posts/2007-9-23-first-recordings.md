@@ -7,6 +7,4 @@ image: /images/firstrecordings.jpg
 
 ---
 
-Collection of early recordings
-
-In 2007, I col­lec­ted all of the songs I wrote for friends and my­self dur­ing the pre­vi­ous two years and put them on a 30 track re­cord. The first tracks on the col­lec­tion are from my first re­lease The Joanna Coote EP.
+In 2007, I col­lec­ted all of the music I wrote for friends and my­self dur­ing the pre­vi­ous two years and put them out. I made a fair few copies and handed them out all over the place. No idea who got one. I forgot to keep one for myself.

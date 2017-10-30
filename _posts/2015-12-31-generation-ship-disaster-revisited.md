@@ -4,6 +4,8 @@ title: Generation Ship Disaster Revisited
 album: Generation_Ship_Disaster_Revisited
 tags: music stories poetry
 image: /images/generationshipdisasterrevisited.jpg
+featured: true
+description: A space musical with 16 voices 
 
 ---
 

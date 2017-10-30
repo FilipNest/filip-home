@@ -8,6 +8,8 @@ tags: music code
 
 Syn­thy is an on­line syn­thes­iser and se­quen­cer with live world out­put and col­ours made byFilip Hnízdo us­ing the Web Au­dio API, the live server is powered by socket.io and Node.js. The data­base of pat­terns pushed to syn­thy is powered by the won­der­ful NeDB.
 
+It was once featured in Create Digital Music magazine. Woop.
+
 [Visit synthy](http://synthy.io)
 
 Syn­thy was ori­gin­ally star­ted, late in the sum­mer of 2014 with in­spir­a­tion provided by Fiona Ship­wright and has been ex­pan­ded since then. It may grow even more if you like it.

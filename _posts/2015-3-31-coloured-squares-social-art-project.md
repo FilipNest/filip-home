@@ -2,7 +2,6 @@
 
 title: Coloured Squares
 tags: code
-featured: true
 
 ---
 

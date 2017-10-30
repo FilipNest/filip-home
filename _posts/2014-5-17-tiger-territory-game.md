@@ -3,14 +3,14 @@
 title: Tiger Territory game
 tags: code music
 image: /images/tigerterritorygame.jpg
+featured: true
+description: A top-down, two-mode (adventure/arcade) game made for the Zoological Society of London.
 
 ---
 
-Tiger Territory is a top-down, two-mode (adventure/arcade) game I made for the Zoological Society of London using JavaScript, HTML and CSS.
+Ti­ger Ter­rit­ory is a two-mode top-down ad­ven­ture/​ar­cade game fo­cused on the life of a Sumat­ran ti­ger in In­done­sia. I made it us­ing Im­pactJS (with art­work and an­im­a­tion by my col­league Alas­dair Dav­ies). I made a bit of mu­sic for it as well.
 
 [Play the game](http://apps.zsl.org/topdowntiger/)
-
-Ti­ger Ter­rit­ory is a two-mode top-down ad­ven­ture/​ar­cade game fo­cused on the life of a Sumat­ran ti­ger in In­done­sia. I made it us­ing Im­pactJS (with art­work and an­im­a­tion by my col­league Alas­dair Dav­ies). I made a bit of mu­sic for it as well.
 
 The game is full screen, hope­fully works on most desktop and tab­let browsers and can be con­trolled with keys, mouse and touch. I’m still work­ing on a prop­erly small-screen mo­bile friendly ver­sion as it does­n’t scale down that far yet very well.
 

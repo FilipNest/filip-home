@@ -4,6 +4,7 @@ title: Wired UK podcast music
 album: Wired_co_uk_Podcast_Music
 tags: music
 image: /images/wiredukpodcast.jpg
+featured: true
 
 ---
 

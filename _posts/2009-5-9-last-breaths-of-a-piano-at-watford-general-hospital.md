@@ -4,6 +4,7 @@ title: Last Breaths of a Piano at Watford General Hospital
 album: Last_Breaths_of_a_Piano_at_Watford_General_Hospital
 tags: music
 image: /images/lastbreathsofapianoatwatfordgeneral.jpg
+featured: true
 
 ---
 

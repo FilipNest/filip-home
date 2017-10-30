@@ -24,3 +24,5 @@ tag_page_dir: tag
 
 plugins:
 - jekyll/tagging
+
+permalink: :title

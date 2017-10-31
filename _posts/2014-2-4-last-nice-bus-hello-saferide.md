@@ -1,7 +1,7 @@
 ---
 
 title: Last Night Bus by Hello Saferide
-tags: reviews
+tags: art-tribute
 image: /images/the_fox_the_hunter_and_hello_safer-27566625-frntl.jpeg
 
 ---

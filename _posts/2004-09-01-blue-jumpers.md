@@ -1,7 +1,7 @@
 ---
 
 title: Blue Jumpers - an arts magazine
-tags: reviews
+tags: art-tribute
 
 ---
 

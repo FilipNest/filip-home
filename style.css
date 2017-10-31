@@ -8,7 +8,14 @@ body {
   margin-bottom: 2em;
 }
 
-.post .date {position: relative; top:-1em; display: block; width:100%; text-align: center; font-size: 0.8em;}
+.post .date {
+  position: relative;
+  top: -1em;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+}
 
 html {
   position: relative;
@@ -354,7 +361,10 @@ section.block h1 {
 /* Footer */
 
 footer h1 span {
-  letter-spacing: 0.2em;
+  letter-spacing: 0;
+  color: white;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
   color: white;
 }
 

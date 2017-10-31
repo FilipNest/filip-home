@@ -6,7 +6,7 @@ image: green.jpg
 
 ---
 
-I'm Filip Hnzdo (pronounced "Nest").
+I'm Filip Hnízdo (pronounced "Nest").
 
 I write [poetry](/tag/poetry), [music](#music), [stories](/tag/stories) and [computer programs](/tag/code), sometimes dabbling in other art things. I also like writing about [other people's art](/tag/art-tribute).
 

@@ -2,6 +2,7 @@
 
 title: Filip Hnízdo
 layout: home
+image: green.jpg
 
 ---
 

@@ -12,6 +12,6 @@ A double-cd compilation of the last ten years of my music. First CD is songs, se
 
 Please email mail@filipnest.com if you want a copy.
 
-I'm not releasing the track list online until I run out of physical copies. 90% of the music is on this website already.
-
 If you have a copy and don't have a CD player, email me and I'll send you a link to the files.
+
+I'll put it all up on here as a download once all the physical copies are gone.

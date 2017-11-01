@@ -72,6 +72,8 @@ html {
   }
 }
 
+.post p img {max-width: 100%; margin: auto; display: block;}
+
 .post-image {
   display: block;
   margin-bottom: 1.5em;

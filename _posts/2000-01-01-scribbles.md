@@ -1,6 +1,6 @@
 ---
 
-title: Scribbles
+title: MySpace Era Pictures
 description: Scribbles in my early 20s. Often posted on MySpace.
 featured: true
 tags: doodles

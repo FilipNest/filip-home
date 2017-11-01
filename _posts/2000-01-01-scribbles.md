@@ -3,6 +3,7 @@
 title: MySpace Era Pictures
 description: Scribbles in my early 20s. Often posted on MySpace.
 featured: true
+undated: true
 tags: doodles
 
 ---

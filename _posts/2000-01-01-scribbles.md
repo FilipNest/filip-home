@@ -1,6 +1,6 @@
 ---
 
-title: MySpace Era Pictures
+title: MySpace Pictures
 description: Scribbles in my early 20s. Often posted on MySpace.
 featured: true
 undated: true

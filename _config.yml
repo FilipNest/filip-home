@@ -15,7 +15,11 @@ exclude:
   - Gemfile.lock
 
 defaults:
-  layout: "posts"
+  - scope:
+      path: ""
+    values:
+      layout: "post"
+      image: "/images/meta.png"
 
 exclude: [music_templates]
 

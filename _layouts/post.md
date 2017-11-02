@@ -8,7 +8,13 @@
 {% unless page.album %}
 
   {% if page.image %}
+
+  {% unless page.image == "/images/meta.png" %}
+
     <img class="post-image" src="{{page.image}}"/>
+
+  {% endunless %}
+
   {% endif %}
 
 {% endunless %}

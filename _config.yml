@@ -5,11 +5,6 @@ url: "https://filipnest.com"
 
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-redirect-from
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -27,7 +22,10 @@ tag_page_layout: tag_page
 tag_page_dir: tag
 
 plugins:
-- jekyll/tagging
-- jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll/tagging
 
 permalink: :title

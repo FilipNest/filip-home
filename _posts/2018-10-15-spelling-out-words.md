@@ -1,7 +1,7 @@
 ---
 
 title: Spelling Out Words
-tags: reviews poetry 
+tags: art-tribute poetry 
 description: "On picking up my copy of Jessica Hische's new (children's) book: 'Tomorrow I'll Be Brave'"
 
 ---

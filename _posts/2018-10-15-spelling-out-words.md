@@ -18,7 +18,7 @@ Seeing lettering artist Jessica Hische present at a conference in 2013 where she
 
 Maybe I was having a bad day, maybe I was already a bit over-emotional and over-burdened by unaesthetic things, or perhaps it'd do it on any day. It probably would. 
 
-The day Jessica Hische posted a little teaser video of her book I genuinely almost cried seeing it. So I pre-ordered it and now it's here, loaded with adjectives not afraid to reveal themselves. And sweet poetry. I've read it already (these things go quickly even if you take your time), but will no doubt go back to it for decades. It's "fun" and "nice". And "pretty". Its characters are rabbits.
+The day Jessica Hische posted a little teaser video of her book I genuinely almost cried seeing it. So I pre-ordered it and now it's here, loaded with adjectives not afraid to reveal themselves. And sweet poetry, heart and message. I've read it already (these things go quickly even if you take your time), but will no doubt go back to it for decades. It's "fun" and "nice". And "pretty". Its characters are rabbits.
 
 It's meant for young kids 
 

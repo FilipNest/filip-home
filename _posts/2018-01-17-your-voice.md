@@ -1,7 +1,7 @@
 ---
 
 title: Your voice
-tags: poetry
+tags: poetry art-tribute
 
 ---
 

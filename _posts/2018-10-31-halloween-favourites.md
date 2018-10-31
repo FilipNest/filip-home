@@ -2,7 +2,7 @@
 
 title: Halloween Favourites
 tags: art-tribute
-description: "Some of my favourite Halloween-themed art"
+description: "Some of my favourite 'spooky' art"
 
 ---
 

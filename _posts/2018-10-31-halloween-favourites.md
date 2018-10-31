@@ -66,4 +66,4 @@ Which leads me to the whole reason I wrote this blog post and the main thing I w
 
 <b>Happy Halloween eveyone.</b>
 
-(I'm sure I've missed lots so please send me recommendations. Also, it's terrible and in no way representing the genre that there aren't more women on this list. I'll try hard to change this over the coming year by seeking out more, especially on the writing side.)
+(I'm sure I've missed lots so please send me recommendations. Also, it's embarassing, terrible and in no way representing the genre that there aren't more women on this list. I'll try hard to change this over the coming year by seeking out more, especially on the writing side.)

@@ -8,7 +8,7 @@ description: "Some of my favourite Halloween-themed art"
 
 <style>
   
-  b {color:DarkRed;}
+  strong, b {color:DarkRed;}
   
 </style>
 

@@ -6,6 +6,12 @@ description: "Some of my favourite Halloween-themed art"
 
 ---
 
+<style>
+  
+  b {color:DarkRed;}
+  
+</style>
+
 It's my favourite holiday of the year, and not just in a jokey way, I genuinely love Halloween. I don't usually dress up but seeing others, even many of the commercialised decorations and cash-ins, makes me happy. The whole spirit of it is wonderful; a mass celebration of storytelling and fairytales, and as close to a feeling of a religious holiday as I get.
 
 I've long loved getting carried away into the shadows by imaginations, fairy tales, ghosts (especially ghosts) and monsters: **Where the Wild Things Are**, demons and shape-shifters in **The Arabian Nights**, the probably funny but too scary for me as a child **Czech bestiary book** we had, **Jaws** is probably the film I've seen more than any... Gazing into the dark water of **The Thames** today on my walk back home by London Bridge thinking something was going to jump out. Walking through parks at night and forests in the daytime imagining all kinds of _other_ life.

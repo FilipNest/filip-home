@@ -28,8 +28,7 @@ I'm not even sure I enjoy getting scared that much. But there are a few actually
 
 **The Last Broadcast** (1998 film) is often linked to **The Blair Witch Project** as it's found footage documentary based and came out at the same time. I love both but didn't find The Blair Witch Project scary though I loved it, probably more, especially the exchange about how filming something makes it feel "not quite the way it is". It's one of my favourite films, but The Last Broadcast? The Last Broadcast really terrified me. No idea if it would a second time but when I first caught it on TV it made quite an impact. As did the famous **Ghostwatch** BBC "documentary" which I have to get the DVD of to rewatch and which could prompt another long essay but there's been a lot written about it (deservedly).
 
-There's also **Häxan** a 1922 Swedish-Danish film about witches that is billed as a horror but is actually basically a superb and way-ahead-of-its time documentary on feminism. It's long and silent but one of the greatest films of all time (I got it from a list of greatest films of all time as it often appears on them). 
-
+There's also **Häxan** a 1922 Swedish-Danish film about witches that is billed as a horror but is actually basically a superb and way-ahead-of-its time documentary on feminism and mental health. It's long and silent but one of the greatest films of all time (I got it from a list of greatest films of all time as it often appears on them). 
 
 Side note while on witches (though not scary at all obviously) should probably mention **Sabrina the Teenage Witch** (haven't got to the new one yet). Always found it funny how all the episodes basically revolve around her being better off _not_ using magic. But there are many gems.
 

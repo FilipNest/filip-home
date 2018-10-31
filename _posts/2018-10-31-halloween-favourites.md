@@ -14,7 +14,7 @@ description: "Some of my favourite 'spooky' art"
 
 It's my favourite holiday of the year, and not just in a jokey way, I genuinely love Halloween. I don't usually dress up but seeing others, even many of the commercialised decorations and cash-ins, makes me happy. The whole spirit of it is wonderful; a mass celebration of storytelling, and as close to a feeling of a religious holiday as I get.
 
-I've long loved getting carried away into the shadows by imaginations, fairy tales, ghosts (especially ghosts) and monsters: **Where the Wild Things Are**, demons and shape-shifters in **The Arabian Nights**, the probably funny but too scary for me as a child **Czech bestiary book** we had, **Jaws** is probably the film I've seen more than any... Gazing into the dark water of **The Thames** today on my walk back home by London Bridge thinking something was going to jump out. Walking through **parks at night and forests in the daytime** imagining all kinds of _other_ life.
+I've long loved getting carried away into the shadows by imaginations, fairy tales, ghosts (especially ghosts), witches, and monsters: **Where the Wild Things Are**, demons and shape-shifters in **The Arabian Nights**, the probably funny but too scary for me as a child **Czech bestiary book** we had, **Jaws** is probably the film I've seen more than any... Gazing into the dark water of **The Thames** today on my walk back home by London Bridge thinking something was going to jump out. Walking through **parks at night and forests in the daytime** imagining all kinds of _other_ life.
 
 I've released three / four Halloween records, have written "gothic" poetry ever since I was in my early teens scribbling it into exercise books (rhyming "life" with "knife" and all sorts of predictable teenage stuff. It got slightly better as the years went on).
 
@@ -27,6 +27,11 @@ Though Halloween is often the focus of horror and violence, especially in cinema
 I'm not even sure I enjoy getting scared that much. But there are a few actually frightening ones I'll mention before I get to the spooky inverted-life-reflecting fun stuff I love the most.
 
 **The Last Broadcast** (1998 film) is often linked to **The Blair Witch Project** as it's found footage documentary based and came out at the same time. I love both but didn't find The Blair Witch Project scary though I loved it, probably more, especially the exchange about how filming something makes it feel "not quite the way it is". It's one of my favourite films, but The Last Broadcast? The Last Broadcast really terrified me. No idea if it would a second time but when I first caught it on TV it made quite an impact. As did the famous **Ghostwatch** BBC "documentary" which I have to get the DVD of to rewatch and which could prompt another long essay but there's been a lot written about it (deservedly).
+
+There's also **Häxan** a 1922 Swedish-Danish film about witches that is billed as a horror but is actually basically a superb and way-ahead-of-its time documentary on feminism. It's long and silent but one of the greatest films of all time (I got it from a list of greatest films of all time as it often appears on them). 
+
+
+Side note while on witches (though not scary at all obviously) should probably mention **Sabrina the Teenage Witch** (haven't got to the new one yet). Always found it funny how all the episodes basically revolve around her being better off _not_ using magic. But there are many gems.
 
 Scary music doesn't seem like it'll be a thing until you hear **Frankie Teardrop by Suicide**. That scared me so much when I first heard it I almost turned the CD player off but instead stared at it hoping it would finish soon. Nick Hornby wrote about it saying he never needs to hear it again. It's truly horrible, one of the greatest statements of recorded music but, like many other people, I usually skip it when I play the (masterpiece even without it) album.
 

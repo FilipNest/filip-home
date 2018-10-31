@@ -50,9 +50,9 @@ Back to music and tied hugely to the over the top monsters, strange things and s
 
 I haven't listened to them in years, but I used to love "**Witch House**" stuff like **Salem** when it came out. Particularly driving around at night listening to it. Not sure if it'll have aged at all well. The **original Suspiria soundtrack by Goblin (and the whole film's colours especially)** are well worth checking out. Haven't heard Thom Yorke's soundtrack for the new one yet.
 
-Which leads me to the whole reason I wrote this blog post and the main thing I wanted to share before I got distracted and thought I'd write about other things. **My absolute favourite music video. It's a Dusty Springfield cover by She & Him**, the band of Zooey Deschanel and M.Ward. Directed by famed video production group CANADA. You wouldn't think it was a Halloween related song but the video is the most magical of all ghost films. It's so simple I'll just leave you with it, or get distracted again with one more thing and then leave you with it...
+Which leads me to the whole reason I wrote this blog post and the main thing I wanted to share before I got distracted and thought I'd write about other things. **My absolute favourite music video. It's a Dusty Springfield cover by She & Him**, the band of Zooey Deschanel and M. Ward. Directed by famed video production group CANADA. You wouldn't think it was a Halloween related song but the video is the most magical of all ghost films. It's so simple I'll just leave you with it, or get distracted again with one more thing and then leave you with it...
 
-... **a penultimate one from The Onion**. In an age when terrible satire and f... n... sites are everywhere,  Clickhole and The Onion have remained spectacular. Especially when they turn to horror (which Clickhole especially does very often), I love them more than any almost any other publication on the web. Here's one of my absolute favourites. Then Zooey, M.Ward and a ghost.
+... **a penultimate one from The Onion**. In an age when terrible satire and f... n... sites are everywhere,  Clickhole and The Onion have remained spectacular. Especially when they turn to horror (which Clickhole especially does very often), I love them more than any almost any other publication on the web. Here's one of my absolute favourites. Then Zooey, M. Ward and ghost.
 
 <br />
 

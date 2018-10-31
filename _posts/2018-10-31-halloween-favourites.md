@@ -30,7 +30,7 @@ I'm not even sure I enjoy getting scared that much. But there are a few actually
 
 There's also **Häxan** a 1922 Swedish-Danish film about witches that is billed as a horror but is actually basically a superb and way-ahead-of-its feminist documentary on mental health and violence against women. It's long and silent but one of the greatest films of all time (I got it from a list of greatest films of all time as it often appears on them). It's freely available with various soundtracks.
 
-Side note while on witches (though not scary at all obviously) should probably mention **Sabrina the Teenage Witch** (haven't got to the new one yet). Always found it funny how all the episodes basically revolve around her being better off _not_ using magic. But there are many gems.
+Side note while on witches (though not scary at all obviously) should probably mention **Sabrina the Teenage Witch** (haven't got to the new one yet). Always found it funny how all the episodes basically revolve around her being better off _not_ using magic. But there are many gems. Probably should mention my childhood love of **Are You Afraid of the Dark?** which also got my heart started on a lot of the themes here.
 
 Scary music doesn't seem like it'll be a thing until you hear **Frankie Teardrop by Suicide**. That scared me so much when I first heard it I almost turned the CD player off but instead stared at it hoping it would finish soon. Nick Hornby wrote about it saying he never needs to hear it again. It's truly horrible, one of the greatest statements of recorded music but, like many other people, I usually skip it when I play the (masterpiece even without it) album.
 

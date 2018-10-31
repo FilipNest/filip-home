@@ -48,8 +48,10 @@ Which leads me to the whole reason I wrote this blog post and the main thing I w
 
 ... a penultimate one from The Onion. In an age when terrible satire and f... n... sites are everywhere,  Clickhole and The Onion have remained spectacular. Especially when they turn to horror (which Clickhole especially does very often), I love them more than any almost any other publication on the web. Here's one of my absolute favourites. Then Zooey, M.Ward and a ghost.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6k3--GPk-l4?iv_load_policy=3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ni75mYuwvlg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/6k3--GPk-l4?iv_load_policy=3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/Ni75mYuwvlg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Happy Halloween.

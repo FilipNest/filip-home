@@ -13,3 +13,5 @@ I write [poetry](/tag/poetry), [music](#music), [stories](/tag/stories) and [com
 None of this makes me any money but I work at [Octophin Digital](https://octophindigital.com) where we make great things on the web for great people and animals.
 
 You can [find out more about me here](/about). Or just explore the site.
+
+[You can subscribe to a feed here to get updates from this site](https://filipnest.com/feed.xml).

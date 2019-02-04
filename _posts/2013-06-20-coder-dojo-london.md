@@ -7,7 +7,7 @@ tags: code teaching
 
 One of my favourite things is passing on knowledge to others through mentoring. One of my favourite opportunities to do so was being involved in Coder Dojo London.
 
-Here's a lovely video put together about it:
+Here's a lovely video put together about it (midi guitar, theremin and such were my doing, during this hardware-focused session):
 
 <br />
 

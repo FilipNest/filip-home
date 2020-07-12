@@ -5,7 +5,7 @@ tags: art-tribute
 
 ---
 
-*Quick note that I'd recommend having a listen before reading as I pretty much ruin the very point I'm trying to make below! It's a great album which is the main point I should be making.*
+*Quick note that I'd recommend having a listen before reading as I pretty much ruin the very point I'm trying to make below! It's a great album, which is the main point I should be making.*
 
 <br />
 <iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/uaQUdBJfU6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -37,5 +37,3 @@ It's a very brave move for an established singer and a wonderful collection of s
 <iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/9J6K4VmZ7V4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/o_Xvfx2vpkY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/YQURryOFUPc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

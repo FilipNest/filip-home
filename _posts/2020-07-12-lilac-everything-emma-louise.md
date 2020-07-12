@@ -5,8 +5,6 @@ tags: art-tribute
 
 ---
 
-# Emma Louise - Lilac Everything
-
 *Quick note that I'd recommend having a listen before reading as I pretty much ruin the very point I'm trying to make below! It's a great album which is the main point I should be making.*
 
 <iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/uaQUdBJfU6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

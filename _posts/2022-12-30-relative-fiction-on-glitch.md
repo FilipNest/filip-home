@@ -6,7 +6,7 @@ featured: true
 
 ---
 
-_The wonderful Glitch platform featured my Relative Fiction project as one of the top 8 things in its roundup. 
+_The wonderful Glitch platform featured my Relative Fiction project as one of the top 8 things in its roundup._
 
 ---
 

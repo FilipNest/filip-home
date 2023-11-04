@@ -14,5 +14,3 @@ You can switch contexts easily by typing tags into a big context box at the top 
 The decentralised bit means you can run your own copy of it (it's free and open source) and communicate with other copies.
 
 More info on this project can be found at [https://github.com/FilipNest/filters.social](https://github.com/FilipNest/filters.social).
-
-Alternatively, have a play with the demo at [filters.social](https://filters.social).

@@ -2,7 +2,6 @@
 
 title: Dancing in Flames & Penguins
 tags: poetry
-featured: true
 
 ---
 

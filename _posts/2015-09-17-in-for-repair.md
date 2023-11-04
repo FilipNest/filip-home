@@ -2,6 +2,7 @@
 
 title: In for Repair
 tags: stories bodies
+featured: true
 
 ---
 

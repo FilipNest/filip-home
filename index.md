@@ -12,6 +12,6 @@ I write [poetry](/tag/poetry), [music](#music), [stories](/tag/stories) and [com
 
 In professional life I'm director of [Octophin Digital](https://octophindigital.com) where we make digital things for the wildlife conservation and arts sectors.
 
-You can [find out more about me here](/about). Or just explore the site.
+Explore by clicking the annoying inline hyperlinks above or scroll down. All the music releases are at the bottom.
 
-[You can subscribe to a feed here to get updates from this site](https://filipnest.com/feed.xml).
+Contact me at mail at filipnest.com about anything.

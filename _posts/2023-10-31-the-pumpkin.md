@@ -7,7 +7,9 @@ description: A musical theatre inspired song about a rotting pumpkin
 
 ---
 
-_For many months after halloween this pumpkin was rotting on a shelf. More than a year later (2023) there is still an imprint of it. Here's a musical theatre inspired piece about it I wrote at the Kodály Summer School 2023 but split off from the rest of the poems I've posted here from that session as it's a bit different. The point was to set it to music and the phrasing lends itself very much to a version but might leave it like this for now._ 
+_For many months after halloween this pumpkin was rotting on a shelf I walked by every day. More than a year later (2023) there is still an imprint of it.- 
+
+_Here's a musical theatre inspired piece about it I wrote at the Kodály Summer School 2023 but split off from the rest of the poems I've posted here from that one-night session as it's a bit different from the others. The point was to set it to music, and the phrasing lends itself very much to a version, but might leave it like this for now with its heartfelt amongst silliness moments._ 
 
 ---
 

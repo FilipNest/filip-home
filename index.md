@@ -14,4 +14,4 @@ In professional life I'm director of [Octophin Digital](https://octophindigital.
 
 Explore the website by clicking the annoying inline hyperlinks above (sorry!) or scroll down. All the music releases are at the bottom with lyrical foldouts.
 
-Most importantly, thank you for stopping by! I'm not dedicated to any one form of social media at the moment so please get in touch at mail at filipnest.com about anything or just to say hi.
+Get in touch at mail at filipnest.com about anything or just to say hi.

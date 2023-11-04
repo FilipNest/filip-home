@@ -29,3 +29,7 @@ plugins:
   - jekyll/tagging
 
 permalink: :title
+
+feed:
+  path: atom.xml
+  posts_limit: 3

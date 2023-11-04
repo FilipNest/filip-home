@@ -14,4 +14,4 @@ A tool for mak­ing re­l­at­ive fic­tion that changes de­pend­ing on where
 
 Included a col­lec­tion of stor­ies by six writers us­ing the sys­tem.
 
-For more in­form­a­tion visit [https://​re­l­at­ive­fic­tion.com](https://​re­l­at­ive­fic­tion.com).
+For more in­form­a­tion visit [https://relative-fiction.glitch.me/](https://relative-fiction.glitch.me/).

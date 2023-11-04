@@ -1,6 +1,6 @@
 ---
 
-title: Relative Fiction award
+title: Relative Fiction wins "Made You Learn" award on Glitch
 tags: code stories
 featured: true
 

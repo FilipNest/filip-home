@@ -3,7 +3,7 @@
 title: The Pumpkin
 tags: poetry
 image: /images/pumpkin.jpg
-description: A musical theatre inspired song about a pumpkin
+description: A musical theatre inspired song about a rotting pumpkin
 
 ---
 

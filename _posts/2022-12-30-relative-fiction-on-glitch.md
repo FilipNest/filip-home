@@ -1,6 +1,6 @@
 ---
 
-title: Dancing in Flames & Penguins
+title: Relative Fiction award
 tags: code stories
 featured: true
 

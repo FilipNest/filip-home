@@ -5,6 +5,7 @@ album: Last_Breaths_of_a_Piano_at_Watford_General_Hospital
 tags: music
 image: /images/lastbreathsofapianoatwatfordgeneral.jpg
 featured: true
+description: A recording of a piano before being destroyed
 
 ---
 

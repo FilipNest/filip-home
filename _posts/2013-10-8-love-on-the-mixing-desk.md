@@ -3,7 +3,7 @@
 title: Love on the mixing desk
 tags: poetry
 image: /images/VU_Meter.jpg
-featured: true
+featured: false
 
 ---
 

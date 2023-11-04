@@ -4,6 +4,7 @@ title: Crossing - live generative music on Abbey Road
 featured: true
 tags: code music
 image: /images/crossingshot.png
+description: A sonification of the Abbey Road crossing
 
 ---
 

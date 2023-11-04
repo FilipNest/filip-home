@@ -3,6 +3,7 @@
 title: Listen (audio-only adventure game engine)
 tags: code
 featured: true
+description: A demo of an adventure game engine built to be played without visuals
 
 ---
 

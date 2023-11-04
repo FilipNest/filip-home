@@ -3,7 +3,7 @@
 title: Relative fiction
 image: /images/relativefiction.PNG
 featured: true
-description: A tool for localising text for its reader.
+description: A tool for localising text for its reader (later won an award!)
 tags: stories code
 
 ---

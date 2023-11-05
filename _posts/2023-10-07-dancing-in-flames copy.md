@@ -2,6 +2,7 @@
 
 title: Dancing in Flames & Penguins
 tags: poetry
+description: Songs about an arsonist poltergeist, and climate change
 
 ---
 

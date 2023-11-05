@@ -12,7 +12,7 @@
       {% for post in site.posts limit:7 %}
 			   <li>
           <a href="{{ post.url }}">{{ post.title }}</a> <span class="date">{{ post.date | date: "%b %d, %Y" }}</span><br />
-          <small style="font-size:0.5em">{{post.description}}</small>
+          <small style="font-size:0.8em">{{post.description}}</small>
         </li>
       {% endfor %}
 

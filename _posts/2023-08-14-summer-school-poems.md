@@ -1,6 +1,6 @@
 ---
 
-title: Kodály Summer School poems
+title: Summer school poems
 tags: poetry
 
 ---
